@@ -1,0 +1,49 @@
+'''
+"extract the dpi with appropriate keys i have given and give as a json like key and value"
+{
+    "CURRENCY_TYPE": "currency type here", type = (string)
+    "EXPORTER_NAME": "Exporter name only, not address", type = (string)
+    "EXPORTER_ADDRESS": "Exporter address only, not name. Remove "Add:" from the address", type = (string)
+    "IMPORTER_NAME": "Importer name only, not address", type = (string)
+    "IMPORTER_ADDRESS": "Importer address only, not name. Remove "Add:" from the address", type = (string)
+    "INVOICE_NUMBER": "Proforma invoice number only, not date", type = (string)
+    "INVOICE_DATE": "Proforma invoice date, only date no string here only date in date/month/year this format", type = (DATE in this format %d/%m/%Y)
+    "INTERNATIONAL_COMMERCIAL_TERMS": "Incoterm here", type = (string)
+    "PAYMENT_MODE": "Mode of Payment here", type = (string)
+    "PAYMENT_TERMS": "Payment terms here", type = (string)
+    "DPI_NUMBER": "Dpi number here", type = (string)
+    "DPI_RECEPTION_DATE": "Dpi reception date, only date no string here only date in date/month/year this format", type = (DATE in this format %d/%m/%Y)
+    "DPI_REGISTRATION_DATE": "Dpi registration date only, no string here only date in date/month/year this format", type = (DATE in this format %d/%m/%Y)
+    "PPM": "PPM code here", type = (string)
+    "NINEA": "Ninea code(Foreigner Identification Number in Argentina) here", type = (string)
+    "OBSERVATIONS": "Observations like ("Special Observations", "Particular Observations") here", type = (string)
+    "BANQUE_NAME": "", type = (string)
+    "BANQUE_CONTACT_NUMBER": "", type = (string)
+    "BANQUE_FAX": "", type = (string)
+    "BANQUE_CONTACT": "", type = (string)
+    "MODE_OF_TRANSPORT": "Mode of transport here", type = (string)
+    "COUNTRY_OF_ORIGIN": "Country of origin here (only origin place, no additional details)", type = (string)
+    "ISSUER_AV/ARA": "'Issuer' or 'Sender' 'AV' and 'ARA' here", type = (string)
+    "PLACE_OF_DEPARTURE": "'Place of departure or Embarkation point' here", type = (string)
+    "MODE_OF_SHIPMENT": "'Mode of shipment or shipment method' here", type = (string)
+    "TRANSSHIPMENT_LOCATION": "'Place of transshipment or transshipment point or transshipment location' here", type = (string)
+    "VALUE_FOB": "Fob value here", type = (BigDecimal)
+    "TOTAL": "Total amount here", type = (BigDecimal)
+    "FREIGHT": "Freight or fret here(if its value is zero give the value as zero not give as null)", type = (BigDecimal)
+    "INSURANCE": "Insurance or Assurances here(if its value is zero give the value as zero not give as null)", type = (BigDecimal)
+    "OTHER_CHARGES": "Other charges(Autres) here(if its value is zero give the value as zero not give as null)", type = (BigDecimal)
+    "ITEMS": [
+        {
+            "itemNo": "Auto increment item number from 1", type = (integer)
+            "shCode": "HS code or HSN code or Code SH, here", type = (string)
+            "generaldesc": "General description for some or all items", type = (string)
+            "desc": "Description only, no additional details like HS code", type = (string)
+            "qty": "Quantity here", type = (BigDecimal)
+            "origin": "Origin place here (only origin place, no additional details)", type = (string)
+            "unit": "item Unit here", type = (string)
+            "valueFact": "'FCFA/Reference Value in FCFA(Franc CFA)' here", type = (BigDecimal) 
+        }
+    ]
+}
+"no need of any additional information, the response want to be json nothing more than that.
+'''

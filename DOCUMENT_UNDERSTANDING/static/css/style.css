@@ -1,0 +1,172 @@
+body {
+    background-color: #f1f0f0 !important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    max-width: 400px !important;
+    width: 345px !important;
+    padding: 5px;
+    top: 2px;
+}
+
+.card {
+    border-radius: 15px;
+    height: 96vh;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-2 {
+    border: 1px solid #dee2e6;
+    border-radius: 2px;
+    top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.card-header {
+    border-bottom: none;
+    background-color: #002147 !important;
+    color: #fff;
+    padding: 10 !important;
+    padding-top: 20px !important;
+    letter-spacing: 4px;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #fbfbfb;
+    padding: 2rem;
+    overflow: auto;
+}
+
+.custom-file-input:lang(en) {
+    content: "Browse";
+}
+
+.custom-file-label::after {
+    border-left: 1px solid #dee2e6;
+}
+
+.custom-file-label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pages {
+    background-color: #f8f8f8;
+    position: absolute;
+    border: 1px solid rgb(222, 222, 222);
+    height: 96vh;
+    border-radius: 3px;
+    width: 154vh;
+    font-size: calc(10px + 0.5vw);
+    left: 325px;
+    overflow: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#spin, #spin2 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    z-index: 9999999999999999;
+}
+
+#spin2 {
+    height: 80vh;
+}
+
+#selectForm .dropdown-toggle {
+    background-color: #f7f7f7;
+    color: #555555;
+    border-color: #dee2e6;
+    font-size: 14px;
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#selectForm .dropdown-toggle:hover {
+    background-color: #e7e7e7;
+    color: #555555;
+    border-color: #dee2e6;
+}
+
+#selectForm .dropdown-menu {
+    background-color: #f7f7f7;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 3px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#selectForm .dropdown-menu a.dropdown-item {
+    color: #333;
+    font-size: 14px;
+    padding: 0px;
+    padding-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#selectForm .dropdown-menu a.dropdown-item:hover,
+#selectForm .dropdown-menu a.dropdown-item:focus {
+    background-color: #e7e7e7;
+    color: #333;
+    text-decoration: none;
+}
+
+.extracting-text {
+    font-size: calc(10px + 0.5vw);
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.extracting-text::before {
+    content: 'Reading';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(162, 206, 254), rgba(0, 0, 0, 0.589), rgb(162, 206, 254));
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% 100%;
+    background-position: -100% 0;
+    animation: animateText 4s linear infinite;
+}
+
+@keyframes animateText {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+.drag {
+    color: #002147;
+    border: 2px dashed #002147;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+i {
+    font-size: 34px;
+}

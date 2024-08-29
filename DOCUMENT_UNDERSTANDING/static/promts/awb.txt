@@ -1,0 +1,49 @@
+'''
+"extract the air way bill with appropriate keys i have given and give as a json like key and value"
+{
+    "SHIPPER_NAME": "shipper name only not address", 
+    "SHIPPER_ADDRESS": "shipper address only not name",
+    "CONSIGNEE_NAME": "shipper address only not name",
+    "CONSIGNEE_ADDRESS": "consignee address only not name",
+    "HAWB_NUMBER": "HAWB number",
+    "MAWB_NUMBER": "MAWB number",
+    "ISSUED_BY": "Issued by",
+    "ISSUING_CARRIER_AGENT_NAME": "only name not city",
+    "ISSUING_CARRIER_AGENT_CITY": "only city not name",
+    "AGENT'S_IATA_CODE": "",
+    "ACCOUNTING_INFORMATION": "",
+    "AIRPORT_OF_DEPARTURE": "",
+    "FIRST_TO": "",
+    "BY_FIRST_CARRIER": "",
+    "SECOND_TO": "",
+    "FIRST_BY": "",
+    "THIRD_TO": "",
+    "SECOND_BY": "",
+    "DECLARED_VALUE_FOR_CARRIAGE": "",
+    "DECLARED_VALUE_FOR_CUSTOMS": "",
+    "AIRPORT_OF_DESTINATION": "",
+    "REQUESTED_FLIGHT_NUMBER": "",
+    "REQUESTED_FLIGHT_DATE": "",
+    "AMOUNT_OF_INSURANCE": "",
+    "HANDLING_INFORMATION": "",
+    "SIGNATURE_OF_SHIPPER_OR_HIS_AGENT": "",
+    "EXECUTED_ON_DATE": "",
+    "AT_PLACE": "",
+    "SIGNATURE_OF_ISSUING_CARRIER_OR_ITS_AGENT": "",
+    "ITEMS": [
+        {
+            "itemNo": "Auto increment item number from 1", type = (integer)
+            "noOfPeicesRCP": "", type = (string)
+            "grossWeight": "", type = (string)
+            "rateClass": "", type = (string)
+            "commodityItemNo": "", type = (string)
+            "chargeableWeight": "", type = (string)
+            "rate/charge": "", type = (string)
+            "total": "", type = (string)
+            "natureAndQuantityOfGoods": "", type = (string) 
+        }
+    ]
+}
+"no need of any additional information needed except the json, the response want to be json nothing more than that.
+"Note": "Please give me the full response don't stop it as incomplete"
+'''

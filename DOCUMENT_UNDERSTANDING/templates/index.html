@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Upload</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Popper.js for Bootstrap 4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Bootstrap 4 JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- bs-custom-file-input -->
+    <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h6>UPLOAD PDF</h6>
+        </div>
+        <div class="card-body">
+            <form id="uploadForm">
+                <div class="form-group">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="pdfFile" name="pdfFile" accept="application/pdf" required>
+                        <label class="custom-file-label" for="pdfFile">Choose file</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div id="dropArea" class="drag">
+                        <i class="fa fa-file-pdf" aria-hidden="true"></i><p>Drag & Drop your PDF here</p>
+                    </div>
+                </div>
+            </form>
+            <div id="result" class="mt-4"></div>
+            <form id="selectForm" class="mt-3" style="display: none;">
+                <div id="imagesContainer" class="row"></div>
+                <div class="dropdown mb-3 mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="graphTypeDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span id="textId" style="margin-right: 5px;">Document Type</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="graphTypeDropdown">
+                        <a class="dropdown-item" href="#" onclick="setDropdownValue('INVOICE')">INVOICE</a>
+                        <a class="dropdown-item" href="#" onclick="setDropdownValue('DPI')">DPI</a>
+                        <a class="dropdown-item" href="#" onclick="setDropdownValue('DOCS')">DOCS</a>
+                        <a class="dropdown-item" href="#" onclick="setDropdownValue('AWB')">AWB</a>
+                    </div>
+                </div>
+                <div class="dropdown mb-3 mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="graphTypeDropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span id="textId2" style="margin-right: 5px;">Select Model</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="graphTypeDropdown">
+                        <a class="dropdown-item" href="#" onclick="setDropdownValue2('gemini-1.5-flash')">gemini-1.5-flash</a>
+                        <a class="dropdown-item" href="#" onclick="setDropdownValue2('gemini-1.5-pro')">gemini-1.5-pro</a>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success">Submit Selected Pages</button>
+            </form>
+            <div id="spin">
+                <div class="spinner-border text-primary"></div>
+            <div>
+        </div>
+    </div>
+</div>
+<div id="jsonResponse" class="pages">
+    <div class="mt-3"></div>
+    <div id="spin2">
+        <span class="extracting-text" data-bs-toggle="tooltip" data-bs-placement="top" title="Reading your document">Reading</span>
+    <div>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+</body>
+</html>

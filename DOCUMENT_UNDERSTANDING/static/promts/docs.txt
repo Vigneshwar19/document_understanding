@@ -1,0 +1,12 @@
+'''
+"extract the declaration document with appropriate keys i have given and give as a json like key and value"
+{
+    "DECLARATION_NUMBER": "will be in top right corner of the page it will start with year and space and some value and a space and again value, like 'YYYY XXY ZZZZZ', where YYYY is the year, XXY is a set of characters, and ZZZZZ is a numeric value.", type = (string)
+    "DECLARATION_DATE": "it will be in top", type = (DATE in this format %d/%m/%Y)
+    "PPM_NUMBER": "PPM number here", type = (string)
+    "MANIFESTE_OR_AUTRE_NUMBER": "Manifeste number or Autre number it will be in left side with format like 'YYYY XXY ZZZZ', where YYYY is the year, XXY is a set of characters, and ZZZZ is a numeric value.", type = (string)
+    "NUMBER_OF_ARTICLES": "In the line of transport values the number of article will be at last", type = (string)
+}
+"no need of any additional information needed except the json, the response want to be json nothing more than that.
+"Note": "Please give me the full response don't stop it as incomplete"
+'''

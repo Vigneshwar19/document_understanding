@@ -1,0 +1,6 @@
+'''
+"Extract the captcha text, ensuring that uppercase letters remain uppercase and lowercase letters remain lowercase. Do not include any additional information about the captcha."
+"I want like this:"
+{"captcha": ""}
+"Note": "It is captcha so extract it correctly, I want correct result don't take wrongly."
+'''

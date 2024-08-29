@@ -1,0 +1,37 @@
+'''
+"extract the invoice with appropriate keys i have given and give as a json like key and value"
+{
+    "SHIPPER_NAME": "Shipper name only, not address", type = (string)
+    "SHIPPER_ADDRESS": "Shipper address only, not name. Remove "Add:" from the address", type = (string)
+    "CONSIGNEE_NAME": "Consignee name only, not address", type = (string)
+    "CONSIGNEE_ADDRESS": "Consignee address only, not name. Remove "Add:" from the address", type = (string)
+    "INVOICE_NUMBER": "Invoice number only, not date", type = (string)
+    "INVOICE_DATE": "Invoice date only, no string here only date in date/month/year this format", type = (DATE in this format %d/%m/%Y)
+    "ORIGIN": "Name of the origin place", type = (string)
+    "DESTINATION": "Name of the destination place", type = (string)
+    "SHIPMENT_TERM": "Shipment term only map FOB, CI, CIF or CF and not other than this, example: if FOB TIANJIN, show as FOB not FOB TIANJIN", type = (string)
+    "DISCHARGE": "Name of the discharge place", type = (string)
+    "PO_NUMBER": "Purchase order number", type = (string)
+    "PO_DATE": "Purchase order date, no string here only date in date/month/year this format", type = (DATE in this format %d/%m/%Y)
+    "HS_CODE": "HS code or HSN code, only take if it is 8 digit only not above or below 8 digit, no spaces needed in between", type = (string)
+    "CURRENCY_TYPE": "Type of currency only take the short form no need of full form, example: if US DOLLARS, show as USD not US DOLLARS", type = (string)
+    "NUMBER_OF_PACKAGES": "Number of packages type = (integer only)", type = (integer)
+    "INVOICE_ITEM_CHILDS": [
+        {
+            "slno": "Auto increment item number from 1", type = (integer)
+            "generaldesc": "General description for some or all items", type = (string)
+            "desc": "Description only, no additional details like HS code", type = (string)
+            "nofofunits": "Number of units (BigDecimal only)", type = (BigDecimal)
+            "netweight": "Weight in the quantity column (BigDecimal only)", type = (BigDecimal)
+            "quantity": "Count or weight if quantity is null don't show null show 0 (integer only)", type = (integer)
+            "quantityUnitCode": "Code of the quantity unit like 'nos', 'kgs', etc., don't want unwanted charecters like '.', ',', etc,.", type = (string and uppercase)
+            "quantityUnitDesc": "Description of the quantity unit, don't want unwanted charecters like '.', ',', etc,.", type = (string and uppercase)
+            "rate": "Amount only if amount is null don't show null show 0, no currency type (BigDecimal only)", type = (BigDecimal)
+            "totalamount": "Total amount only, no currency type (BigDecimal only)", type = (BigDecimal)
+            "hscode": "HS code or HSN code for each item or numbers with 8 digit in a colomn in items, only take if it is 8 digit only not above or below 8 digit, no spaces needed in between", type = (string)
+        }
+    ]
+}
+"no need of any additional information needed except the json, the response want to be json nothing more than that.
+"Note": "Please give me the full response don't stop it as incomplete"
+'''
