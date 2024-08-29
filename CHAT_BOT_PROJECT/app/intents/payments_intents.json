@@ -1,0 +1,318 @@
+[
+    {
+        "tag": "lastmonthpayment",
+        "patterns": [
+            "how many payments added in the last month",
+            "how many payments from last month",
+            "last month payments",
+            "payments in last month",
+            "number of payments from last month",
+            "count payments from last month",
+            "total payments from last month",
+            "quantity of payments from last month",
+            "payments total from last month",
+            "number of payments in last month",
+            "count payments in last month",
+            "total payments in last month",
+            "quantity of payments in last month",
+            "payments total in last month"
+        ],        
+        "responses": ["The number of payments added in the last month is lastmonthpayment."]
+    },
+    {
+        "tag": "lastyearpayment",
+        "patterns": [
+            "how many payments added in the last year",
+            "how many payments from last year",
+            "last year payments",
+            "payments in last year",
+            "number of payments from last year",
+            "count payments from last year",
+            "total payments from last year",
+            "quantity of payments from last year",
+            "payments total from last year",
+            "number of payments in last year",
+            "count payments in last year",
+            "total payments in last year",
+            "quantity of payments in last year",
+            "payments total in last year"
+        ],        
+        "responses": ["The number of payments added in the last year is lastyearpayment."]
+    },
+    {
+        "tag": "search_request",
+        "patterns": [ "I want to find ", "I wish to find ", "I need to find ", "I'm looking to find ", "I'm searching for ", "I'm interested in finding ", "Can you help me find ", "Can you assist me in finding ", "Please find ", "Please help me find ", "Seeking to find ", "Looking for ", "Search for ", "Find by ", "Search by ", "Can you find " ],
+        "responses": ["Sure, what are you looking for?"]
+    },            
+    {
+        "tag": "namepayment",
+        "patterns": [
+            "how many payments from",
+            "payments from",
+            "payments frm",
+            "number of payments from",
+            "count payments from",
+            "total payments from",
+            "quantity of payments from",
+            "payments total from",
+            "number of payments by",
+            "count payments by",
+            "total payments by",
+            "quantity of payments by",
+            "payments total by",
+            "how many payments",
+            "how many total payments",
+            "how many payments total",
+            "how many payments in total",
+            "how many payments last month"
+        ],                
+        "responses": ["The number of payments from name is namepayment."]
+    },
+    {
+        "tag": "lastweekpayment",
+        "patterns": [
+            "last week payments",
+            "payments for the last week",
+            "number of payments last week",
+            "count payments last week",
+            "total payments last week",
+            "quantity of payments last week",
+            "payments total last week",
+            "payments from last week",
+            "number of payments from last week",
+            "count payments from last week",
+            "total payments from last week",
+            "quantity of payments from last week",
+            "payments total from last week"
+        ],        
+        "responses": ["The number of payments added last week is lastweekpayment."]
+    },
+    {
+        "tag": "januarypayment",
+        "patterns": [
+            "payments for january",
+            "january payments",
+            "number of payments in january",
+            "count payments in january",
+            "total payments in january",
+            "quantity of payments in january",
+            "payments total in january",
+            "payments from january",
+            "number of payments from january",
+            "count payments from january",
+            "total payments from january",
+            "quantity of payments from january",
+            "payments total from january"
+        ],        
+        "responses": ["The number of payments for january is januarypayment."]
+    },
+    {
+        "tag": "februarypayment",
+        "patterns": [
+            "payments for february",
+            "february payments",
+            "number of payments in february",
+            "count payments in february",
+            "total payments in february",
+            "quantity of payments in february",
+            "payments total in february",
+            "payments from february",
+            "number of payments from february",
+            "count payments from february",
+            "total payments from february",
+            "quantity of payments from february",
+            "payments total from february"
+        ],
+        "responses": ["The number of payments for february is februarypayment."]
+    },
+    {
+        "tag": "marchpayment",
+        "patterns": [
+            "payments for march",
+            "march payments",
+            "number of payments in march",
+            "count payments in march",
+            "total payments in march",
+            "quantity of payments in march",
+            "payments total in march",
+            "payments from march",
+            "number of payments from march",
+            "count payments from march",
+            "total payments from march",
+            "quantity of payments from march",
+            "payments total from march"
+        ],
+        "responses": ["The number of payments for march is marchpayment."]
+    },
+    {
+        "tag": "aprilpayment",
+        "patterns": [
+            "payments for april",
+            "april payments",
+            "number of payments in april",
+            "count payments in april",
+            "total payments in april",
+            "quantity of payments in april",
+            "payments total in april",
+            "payments from april",
+            "number of payments from april",
+            "count payments from april",
+            "total payments from april",
+            "quantity of payments from april",
+            "payments total from april"
+        ],
+        "responses": ["The number of payments for april is aprilpayment."]
+    },
+    {
+        "tag": "maypayment",
+        "patterns": [
+            "payments for may",
+            "may payments",
+            "number of payments in may",
+            "count payments in may",
+            "total payments in may",
+            "quantity of payments in may",
+            "payments total in may",
+            "payments from may",
+            "number of payments from may",
+            "count payments from may",
+            "total payments from may",
+            "quantity of payments from may",
+            "payments total from may"
+        ],
+        "responses": ["The number of payments for may is maypayment."]
+    },
+    {
+        "tag": "junepayment",
+        "patterns": [
+            "payments for june",
+            "june payments",
+            "number of payments in june",
+            "count payments in june",
+            "total payments in june",
+            "quantity of payments in june",
+            "payments total in june",
+            "payments from june",
+            "number of payments from june",
+            "count payments from june",
+            "total payments from june",
+            "quantity of payments from june",
+            "payments total from june"
+        ],
+        "responses": ["The number of payments for june is junepayment."]
+    },
+    {
+        "tag": "julypayment",
+        "patterns": [
+            "payments for july",
+            "july payments",
+            "number of payments in july",
+            "count payments in july",
+            "total payments in july",
+            "quantity of payments in july",
+            "payments total in july",
+            "payments from july",
+            "number of payments from july",
+            "count payments from july",
+            "total payments from july",
+            "quantity of payments from july",
+            "payments total from july"
+        ],
+        "responses": ["The number of payments for july is julypayment."]
+    },
+    {
+        "tag": "augustpayment",
+        "patterns": [
+            "payments for august",
+            "august payments",
+            "number of payments in august",
+            "count payments in august",
+            "total payments in august",
+            "quantity of payments in august",
+            "payments total in august",
+            "payments from august",
+            "number of payments from august",
+            "count payments from august",
+            "total payments from august",
+            "quantity of payments from august",
+            "payments total from august"
+        ],
+        "responses": ["The number of payments for august is augustpayment."]
+    },
+    {
+        "tag": "septemberpayment",
+        "patterns": [
+            "payments for september",
+            "september payments",
+            "number of payments in september",
+            "count payments in september",
+            "total payments in september",
+            "quantity of payments in september",
+            "payments total in september",
+            "payments from september",
+            "number of payments from september",
+            "count payments from september",
+            "total payments from september",
+            "quantity of payments from september",
+            "payments total from september"
+        ],
+        "responses": ["The number of payments for september is septemberpayment."]
+    },
+    {
+        "tag": "octoberpayment",
+        "patterns": [
+            "payments for october",
+            "october payments",
+            "number of payments in october",
+            "count payments in october",
+            "total payments in october",
+            "quantity of payments in october",
+            "payments total in october",
+            "payments from october",
+            "number of payments from october",
+            "count payments from october",
+            "total payments from october",
+            "quantity of payments from october",
+            "payments total from october"
+        ],
+        "responses": ["The number of payments for october is octoberpayment."]
+    },
+    {
+        "tag": "novemberpayment",
+        "patterns": [
+            "payments for november",
+            "november payments",
+            "number of payments in november",
+            "count payments in november",
+            "total payments in november",
+            "quantity of payments in november",
+            "payments total in november",
+            "payments from november",
+            "number of payments from november",
+            "count payments from november",
+            "total payments from november",
+            "quantity of payments from november",
+            "payments total from november"
+        ],
+        "responses": ["The number of payments for november is novemberpayment."]
+    },
+    {
+        "tag": "decemberpayment",
+        "patterns": [
+            "payments for december",
+            "december payments",
+            "number of payments in december",
+            "count payments in december",
+            "total payments in december",
+            "quantity of payments in december",
+            "payments total in december",
+            "payments from december",
+            "number of payments from december",
+            "count payments from december",
+            "total payments from december",
+            "quantity of payments from december",
+            "payments total from december"
+        ],
+        "responses": ["The number of payments for december is decemberpayment."]
+    }
+]

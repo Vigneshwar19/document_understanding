@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICEGATE CTH ENQ Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    #spin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    #message {
+        margin-left: 5px;
+        font-weight: 500;
+    }
+
+    .custom-spinner {
+        border-width: 3px;
+        border-color: currentColor transparent transparent transparent;
+        border-radius: 50%;
+        animation: spin 1.2s linear infinite;
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
+<body>
+    <div class="container mt-5">
+        <h2>ICEGATE CTH ENQ Search</h2>
+        <form id="cthForm">
+            <div class="mb-3">
+                <label for="file" class="form-label">Upload Excel File</label>
+                <input type="file" class="form-control" id="file" accept=".xlsx" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="result" class="mt-4">
+            <div id="spin" style="display: none;">
+                <div class="spinner-border text-primary custom-spinner" style="width: 20px; height: 20px; border: 3px dashed;"></div>
+                <div id="message" class="text-primary">logging...</div>
+            </div>
+        </div>  
+        <div id="cthTableDiv">
+            <h4>CTH ENQ Details</h4>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>CTH</th>
+                        <th>BCD Rate</th>
+                        <th>Specific Duty Flag</th>
+                        <th>Spec Duty</th>
+                        <th>Spec Duty Unit</th>
+                    </tr>
+                </thead>
+                <tbody id="cth-table-body">
+                    <!-- Table rows will be inserted here -->
+                </tbody>
+            </table>
+        </div>      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        const resultDiv = document.getElementById('result');
+        document.getElementById('cthForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const fileInput = document.getElementById('file');
+            let spinner = document.getElementById('spin');
+
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+
+            let statusMessages = [
+                "Initializing...",
+                "Gathering data...",
+                "Please wait...",
+                "Verifying details...",
+                "Loading resources...",
+                "Finalizing...",
+                "Fetching information...",
+                "Just a moment...",
+                "Optimizing process...",
+                "Preparing results...",
+                "almost done..."
+            ];
+            let messageIndex = 0;
+
+            spinner.style.display = "flex";
+
+            let messageInterval = setInterval(function() {
+                spinner.children[1].innerText = statusMessages[messageIndex];
+                messageIndex = (messageIndex + 1) % statusMessages.length;
+            }, 5000);
+
+            setTimeout(startPollingForCTHUpdates, 5000);
+
+            function startPollingForCTHUpdates() {
+                setInterval(fetchCTHUpdate, 500);
+            }
+
+            try {
+                const response = await axios.post('/api/icegate/cthenq', formData, {
+                    headers: {
+                        'Content-Type': 'multipart/form-data'
+                    }
+                });
+
+                if (response.data.status === 'success') {
+                    clearInterval(messageInterval); 
+                    spinner.style.display = "none";
+                    const fileUrl = `/excel/${response.data.excelFilePath}`;
+                    clearInterval(fetchCTHUpdate);
+                    resultDiv.innerHTML = `<div class="alert alert-success">File processed successfully. <a href="${fileUrl}" target="_blank">Download the excel file</a></div>`;
+                } else {
+                    resultDiv.innerHTML = `<div class="alert alert-danger">Error: ${response.data.message}</div>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            }
+        });
+
+        async function fetchCTHUpdate() {
+            try {
+                const response = await axios.post('/api/icegate/cthenqupdate');
+        
+                if (response.data.status === 'success') {
+                    const data = response.data.data;
+        
+                    console.log('Response data:', data);
+        
+                    updateTable(data);
+                } else {
+                    // resultDiv.innerHTML = `<div class="alert alert-danger">Error: ${response.data.message}</div>`;
+                }
+            } catch (error) {
+                // resultDiv.innerHTML = `<div class="alert alert-danger">Err: ${error.message}</div>`;
+            }
+        }        
+
+        function updateTable(data) {
+            const tableBody = document.getElementById('cth-table-body');
+            if (!tableBody) {
+                console.error('Element with ID cth-table-body not found.');
+                return;
+            }
+            tableBody.innerHTML = '';
+        
+            console.log('Data received for table update:', data);
+        
+            let dataArray = [];
+            if (Array.isArray(data)) {
+                dataArray = data;
+            } else if (typeof data === 'object' && data !== null) {
+                dataArray = [data];
+            } else {
+                console.error('Invalid data format. Expected an array or object:', data);
+                return;
+            }
+        
+            dataArray.forEach((item) => {
+                if (item && typeof item === 'object') {
+                    const row = document.createElement('tr');
+        
+                    const tariffItemCell = document.createElement('td');
+                    tariffItemCell.textContent = item["CTH"] || '-';
+                    row.appendChild(tariffItemCell);
+        
+                    const descriptionCell = document.createElement('td');
+                    descriptionCell.textContent = item["BCD Rate"] || '-';
+                    row.appendChild(descriptionCell);
+        
+                    const unitCell = document.createElement('td');
+                    unitCell.textContent = item["Specific Duty Flag"] || '-';
+                    row.appendChild(unitCell);
+        
+                    const rateOfDutyCell = document.createElement('td');
+                    rateOfDutyCell.textContent = item["Spec Duty"] || '-';
+                    row.appendChild(rateOfDutyCell);
+        
+                    const importPolicyCell = document.createElement('td');
+                    importPolicyCell.textContent = item["Spec Duty Unit"] || '-';
+                    row.appendChild(importPolicyCell);
+        
+                    tableBody.appendChild(row);
+                } else {
+                    console.error('Invalid item format. Expected an object:', item);
+                }
+            });
+        }                      
+    </script>
+</body>
+</html>

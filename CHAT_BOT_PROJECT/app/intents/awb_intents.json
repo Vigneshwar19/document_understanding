@@ -1,0 +1,318 @@
+[
+    {
+        "tag": "lastmonthawb",
+        "patterns": [
+            "how many awbs added in the last month",
+            "how many awbs from last month",
+            "last month awbs",
+            "awbs in last month",
+            "number of awbs from last month",
+            "count awbs from last month",
+            "total awbs from last month",
+            "quantity of awbs from last month",
+            "awbs total from last month",
+            "number of awbs in last month",
+            "count awbs in last month",
+            "total awbs in last month",
+            "quantity of awbs in last month",
+            "awbs total in last month"
+        ],        
+        "responses": ["The number of awbs added in the last month is lastmonthawb."]
+    },
+    {
+        "tag": "lastyearawb",
+        "patterns": [
+            "how many awbs added in the last year",
+            "how many awbs from last year",
+            "last year awbs",
+            "awbs in last year",
+            "number of awbs from last year",
+            "count awbs from last year",
+            "total awbs from last year",
+            "quantity of awbs from last year",
+            "awbs total from last year",
+            "number of awbs in last year",
+            "count awbs in last year",
+            "total awbs in last year",
+            "quantity of awbs in last year",
+            "awbs total in last year"
+        ],        
+        "responses": ["The number of awbs added in the last year is lastyearawb."]
+    },
+    {
+        "tag": "search_request",
+        "patterns": [ "I want to find ", "I wish to find ", "I need to find ", "I'm looking to find ", "I'm searching for ", "I'm interested in finding ", "Can you help me find ", "Can you assist me in finding ", "Please find ", "Please help me find ", "Seeking to find ", "Looking for ", "Search for ", "Find by ", "Search by ", "Can you find " ],
+        "responses": ["Sure, what are you looking for?"]
+    },            
+    {
+        "tag": "nameawb",
+        "patterns": [
+            "how many awbs from",
+            "awbs from",
+            "awbs frm",
+            "number of awbs from",
+            "count awbs from",
+            "total awbs from",
+            "quantity of awbs from",
+            "awbs total from",
+            "number of awbs by",
+            "count awbs by",
+            "total awbs by",
+            "quantity of awbs by",
+            "awbs total by",
+            "how many awbs",
+            "how many total awbs",
+            "how many awbs total",
+            "how many awbs in total",
+            "how many awbs last month"
+        ],                
+        "responses": ["The number of awbs from name is nameawb."]
+    },
+    {
+        "tag": "lastweekawb",
+        "patterns": [
+            "last week awbs",
+            "awbs for the last week",
+            "number of awbs last week",
+            "count awbs last week",
+            "total awbs last week",
+            "quantity of awbs last week",
+            "awbs total last week",
+            "awbs from last week",
+            "number of awbs from last week",
+            "count awbs from last week",
+            "total awbs from last week",
+            "quantity of awbs from last week",
+            "awbs total from last week"
+        ],        
+        "responses": ["The number of awbs added last week is lastweekawb."]
+    },
+    {
+        "tag": "januaryawb",
+        "patterns": [
+            "awbs for january",
+            "january awbs",
+            "number of awbs in january",
+            "count awbs in january",
+            "total awbs in january",
+            "quantity of awbs in january",
+            "awbs total in january",
+            "awbs from january",
+            "number of awbs from january",
+            "count awbs from january",
+            "total awbs from january",
+            "quantity of awbs from january",
+            "awbs total from january"
+        ],        
+        "responses": ["The number of awbs for january is januaryawb."]
+    },
+    {
+        "tag": "februaryawb",
+        "patterns": [
+            "awbs for february",
+            "february awbs",
+            "number of awbs in february",
+            "count awbs in february",
+            "total awbs in february",
+            "quantity of awbs in february",
+            "awbs total in february",
+            "awbs from february",
+            "number of awbs from february",
+            "count awbs from february",
+            "total awbs from february",
+            "quantity of awbs from february",
+            "awbs total from february"
+        ],
+        "responses": ["The number of awbs for february is februaryawb."]
+    },
+    {
+        "tag": "marchawb",
+        "patterns": [
+            "awbs for march",
+            "march awbs",
+            "number of awbs in march",
+            "count awbs in march",
+            "total awbs in march",
+            "quantity of awbs in march",
+            "awbs total in march",
+            "awbs from march",
+            "number of awbs from march",
+            "count awbs from march",
+            "total awbs from march",
+            "quantity of awbs from march",
+            "awbs total from march"
+        ],
+        "responses": ["The number of awbs for march is marchawb."]
+    },
+    {
+        "tag": "aprilawb",
+        "patterns": [
+            "awbs for april",
+            "april awbs",
+            "number of awbs in april",
+            "count awbs in april",
+            "total awbs in april",
+            "quantity of awbs in april",
+            "awbs total in april",
+            "awbs from april",
+            "number of awbs from april",
+            "count awbs from april",
+            "total awbs from april",
+            "quantity of awbs from april",
+            "awbs total from april"
+        ],
+        "responses": ["The number of awbs for april is aprilawb."]
+    },
+    {
+        "tag": "mayawb",
+        "patterns": [
+            "awbs for may",
+            "may awbs",
+            "number of awbs in may",
+            "count awbs in may",
+            "total awbs in may",
+            "quantity of awbs in may",
+            "awbs total in may",
+            "awbs from may",
+            "number of awbs from may",
+            "count awbs from may",
+            "total awbs from may",
+            "quantity of awbs from may",
+            "awbs total from may"
+        ],
+        "responses": ["The number of awbs for may is mayawb."]
+    },
+    {
+        "tag": "juneawb",
+        "patterns": [
+            "awbs for june",
+            "june awbs",
+            "number of awbs in june",
+            "count awbs in june",
+            "total awbs in june",
+            "quantity of awbs in june",
+            "awbs total in june",
+            "awbs from june",
+            "number of awbs from june",
+            "count awbs from june",
+            "total awbs from june",
+            "quantity of awbs from june",
+            "awbs total from june"
+        ],
+        "responses": ["The number of awbs for june is juneawb."]
+    },
+    {
+        "tag": "julyawb",
+        "patterns": [
+            "awbs for july",
+            "july awbs",
+            "number of awbs in july",
+            "count awbs in july",
+            "total awbs in july",
+            "quantity of awbs in july",
+            "awbs total in july",
+            "awbs from july",
+            "number of awbs from july",
+            "count awbs from july",
+            "total awbs from july",
+            "quantity of awbs from july",
+            "awbs total from july"
+        ],
+        "responses": ["The number of awbs for july is julyawb."]
+    },
+    {
+        "tag": "augustawb",
+        "patterns": [
+            "awbs for august",
+            "august awbs",
+            "number of awbs in august",
+            "count awbs in august",
+            "total awbs in august",
+            "quantity of awbs in august",
+            "awbs total in august",
+            "awbs from august",
+            "number of awbs from august",
+            "count awbs from august",
+            "total awbs from august",
+            "quantity of awbs from august",
+            "awbs total from august"
+        ],
+        "responses": ["The number of awbs for august is augustawb."]
+    },
+    {
+        "tag": "septemberawb",
+        "patterns": [
+            "awbs for september",
+            "september awbs",
+            "number of awbs in september",
+            "count awbs in september",
+            "total awbs in september",
+            "quantity of awbs in september",
+            "awbs total in september",
+            "awbs from september",
+            "number of awbs from september",
+            "count awbs from september",
+            "total awbs from september",
+            "quantity of awbs from september",
+            "awbs total from september"
+        ],
+        "responses": ["The number of awbs for september is septemberawb."]
+    },
+    {
+        "tag": "octoberawb",
+        "patterns": [
+            "awbs for october",
+            "october awbs",
+            "number of awbs in october",
+            "count awbs in october",
+            "total awbs in october",
+            "quantity of awbs in october",
+            "awbs total in october",
+            "awbs from october",
+            "number of awbs from october",
+            "count awbs from october",
+            "total awbs from october",
+            "quantity of awbs from october",
+            "awbs total from october"
+        ],
+        "responses": ["The number of awbs for october is octoberawb."]
+    },
+    {
+        "tag": "novemberawb",
+        "patterns": [
+            "awbs for november",
+            "november awbs",
+            "number of awbs in november",
+            "count awbs in november",
+            "total awbs in november",
+            "quantity of awbs in november",
+            "awbs total in november",
+            "awbs from november",
+            "number of awbs from november",
+            "count awbs from november",
+            "total awbs from november",
+            "quantity of awbs from november",
+            "awbs total from november"
+        ],
+        "responses": ["The number of awbs for november is novemberawb."]
+    },
+    {
+        "tag": "decemberawb",
+        "patterns": [
+            "awbs for december",
+            "december awbs",
+            "number of awbs in december",
+            "count awbs in december",
+            "total awbs in december",
+            "quantity of awbs in december",
+            "awbs total in december",
+            "awbs from december",
+            "number of awbs from december",
+            "count awbs from december",
+            "total awbs from december",
+            "quantity of awbs from december",
+            "awbs total from december"
+        ],
+        "responses": ["The number of awbs for december is decemberawb."]
+    }
+]

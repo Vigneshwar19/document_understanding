@@ -1,0 +1,17 @@
+[
+    {
+        "tag": "Sales",
+        "patterns": ["lead", "Enquiry", "quotation"],
+        "responses": ["Hello! Welcome to our shipping company. How can I assist you today?", "Hi there! How may I help you with your shipment?", "Hey! How can I assist you today?"]
+    },
+    {
+        "tag": "Search Engine",
+        "patterns": ["buying", "selling", "payments", "receipts"],
+        "responses": ["I apologize for the inconvenience. Our technical team has been notified about the issue. Please try again later or contact our support team for immediate assistance."]
+    },
+    {
+        "tag": "AI - Powered Pdf / Image processing",
+        "patterns": ["buying", "selling", "payments", "receipts"],
+        "responses": ["I apologize for the inconvenience. Our technical team has been notified about the issue. Please try again later or contact our support team for immediate assistance."]
+    }
+]

@@ -1,0 +1,318 @@
+[
+    {
+        "tag": "lastmonthbuying",
+        "patterns": [
+            "how many buyings added in the last month",
+            "how many buyings from last month",
+            "last month buyings",
+            "buyings in last month",
+            "number of buyings from last month",
+            "count buyings from last month",
+            "total buyings from last month",
+            "quantity of buyings from last month",
+            "buyings total from last month",
+            "number of buyings in last month",
+            "count buyings in last month",
+            "total buyings in last month",
+            "quantity of buyings in last month",
+            "buyings total in last month"
+        ],        
+        "responses": ["The number of buyings added in the last month is lastmonthbuying."]
+    },
+    {
+        "tag": "lastyearbuying",
+        "patterns": [
+            "how many buyings added in the last year",
+            "how many buyings from last year",
+            "last year buyings",
+            "buyings in last year",
+            "number of buyings from last year",
+            "count buyings from last year",
+            "total buyings from last year",
+            "quantity of buyings from last year",
+            "buyings total from last year",
+            "number of buyings in last year",
+            "count buyings in last year",
+            "total buyings in last year",
+            "quantity of buyings in last year",
+            "buyings total in last year"
+        ],        
+        "responses": ["The number of buyings added in the last year is lastyearbuying."]
+    },
+    {
+        "tag": "search_request",
+        "patterns": [ "I want to find ", "I wish to find ", "I need to find ", "I'm looking to find ", "I'm searching for ", "I'm interested in finding ", "Can you help me find ", "Can you assist me in finding ", "Please find ", "Please help me find ", "Seeking to find ", "Looking for ", "Search for ", "Find by ", "Search by ", "Can you find " ],
+        "responses": ["Sure, what are you looking for?"]
+    },            
+    {
+        "tag": "namebuying",
+        "patterns": [
+            "how many buyings from",
+            "buyings from",
+            "buyings frm",
+            "number of buyings from",
+            "count buyings from",
+            "total buyings from",
+            "quantity of buyings from",
+            "buyings total from",
+            "number of buyings by",
+            "count buyings by",
+            "total buyings by",
+            "quantity of buyings by",
+            "buyings total by",
+            "how many buyings",
+            "how many total buyings",
+            "how many buyings total",
+            "how many buyings in total",
+            "how many buyings last month"
+        ],                
+        "responses": ["The number of buyings from name is namebuying."]
+    },
+    {
+        "tag": "lastweekbuying",
+        "patterns": [
+            "last week buyings",
+            "buyings for the last week",
+            "number of buyings last week",
+            "count buyings last week",
+            "total buyings last week",
+            "quantity of buyings last week",
+            "buyings total last week",
+            "buyings from last week",
+            "number of buyings from last week",
+            "count buyings from last week",
+            "total buyings from last week",
+            "quantity of buyings from last week",
+            "buyings total from last week"
+        ],        
+        "responses": ["The number of buyings added last week is lastweekbuying."]
+    },
+    {
+        "tag": "januarybuying",
+        "patterns": [
+            "buyings for january",
+            "january buyings",
+            "number of buyings in january",
+            "count buyings in january",
+            "total buyings in january",
+            "quantity of buyings in january",
+            "buyings total in january",
+            "buyings from january",
+            "number of buyings from january",
+            "count buyings from january",
+            "total buyings from january",
+            "quantity of buyings from january",
+            "buyings total from january"
+        ],        
+        "responses": ["The number of buyings for january is januarybuying."]
+    },
+    {
+        "tag": "februarybuying",
+        "patterns": [
+            "buyings for february",
+            "february buyings",
+            "number of buyings in february",
+            "count buyings in february",
+            "total buyings in february",
+            "quantity of buyings in february",
+            "buyings total in february",
+            "buyings from february",
+            "number of buyings from february",
+            "count buyings from february",
+            "total buyings from february",
+            "quantity of buyings from february",
+            "buyings total from february"
+        ],
+        "responses": ["The number of buyings for february is februarybuying."]
+    },
+    {
+        "tag": "marchbuying",
+        "patterns": [
+            "buyings for march",
+            "march buyings",
+            "number of buyings in march",
+            "count buyings in march",
+            "total buyings in march",
+            "quantity of buyings in march",
+            "buyings total in march",
+            "buyings from march",
+            "number of buyings from march",
+            "count buyings from march",
+            "total buyings from march",
+            "quantity of buyings from march",
+            "buyings total from march"
+        ],
+        "responses": ["The number of buyings for march is marchbuying."]
+    },
+    {
+        "tag": "aprilbuying",
+        "patterns": [
+            "buyings for april",
+            "april buyings",
+            "number of buyings in april",
+            "count buyings in april",
+            "total buyings in april",
+            "quantity of buyings in april",
+            "buyings total in april",
+            "buyings from april",
+            "number of buyings from april",
+            "count buyings from april",
+            "total buyings from april",
+            "quantity of buyings from april",
+            "buyings total from april"
+        ],
+        "responses": ["The number of buyings for april is aprilbuying."]
+    },
+    {
+        "tag": "maybuying",
+        "patterns": [
+            "buyings for may",
+            "may buyings",
+            "number of buyings in may",
+            "count buyings in may",
+            "total buyings in may",
+            "quantity of buyings in may",
+            "buyings total in may",
+            "buyings from may",
+            "number of buyings from may",
+            "count buyings from may",
+            "total buyings from may",
+            "quantity of buyings from may",
+            "buyings total from may"
+        ],
+        "responses": ["The number of buyings for may is maybuying."]
+    },
+    {
+        "tag": "junebuying",
+        "patterns": [
+            "buyings for june",
+            "june buyings",
+            "number of buyings in june",
+            "count buyings in june",
+            "total buyings in june",
+            "quantity of buyings in june",
+            "buyings total in june",
+            "buyings from june",
+            "number of buyings from june",
+            "count buyings from june",
+            "total buyings from june",
+            "quantity of buyings from june",
+            "buyings total from june"
+        ],
+        "responses": ["The number of buyings for june is junebuying."]
+    },
+    {
+        "tag": "julybuying",
+        "patterns": [
+            "buyings for july",
+            "july buyings",
+            "number of buyings in july",
+            "count buyings in july",
+            "total buyings in july",
+            "quantity of buyings in july",
+            "buyings total in july",
+            "buyings from july",
+            "number of buyings from july",
+            "count buyings from july",
+            "total buyings from july",
+            "quantity of buyings from july",
+            "buyings total from july"
+        ],
+        "responses": ["The number of buyings for july is julybuying."]
+    },
+    {
+        "tag": "augustbuying",
+        "patterns": [
+            "buyings for august",
+            "august buyings",
+            "number of buyings in august",
+            "count buyings in august",
+            "total buyings in august",
+            "quantity of buyings in august",
+            "buyings total in august",
+            "buyings from august",
+            "number of buyings from august",
+            "count buyings from august",
+            "total buyings from august",
+            "quantity of buyings from august",
+            "buyings total from august"
+        ],
+        "responses": ["The number of buyings for august is augustbuying."]
+    },
+    {
+        "tag": "septemberbuying",
+        "patterns": [
+            "buyings for september",
+            "september buyings",
+            "number of buyings in september",
+            "count buyings in september",
+            "total buyings in september",
+            "quantity of buyings in september",
+            "buyings total in september",
+            "buyings from september",
+            "number of buyings from september",
+            "count buyings from september",
+            "total buyings from september",
+            "quantity of buyings from september",
+            "buyings total from september"
+        ],
+        "responses": ["The number of buyings for september is septemberbuying."]
+    },
+    {
+        "tag": "octoberbuying",
+        "patterns": [
+            "buyings for october",
+            "october buyings",
+            "number of buyings in october",
+            "count buyings in october",
+            "total buyings in october",
+            "quantity of buyings in october",
+            "buyings total in october",
+            "buyings from october",
+            "number of buyings from october",
+            "count buyings from october",
+            "total buyings from october",
+            "quantity of buyings from october",
+            "buyings total from october"
+        ],
+        "responses": ["The number of buyings for october is octoberbuying."]
+    },
+    {
+        "tag": "novemberbuying",
+        "patterns": [
+            "buyings for november",
+            "november buyings",
+            "number of buyings in november",
+            "count buyings in november",
+            "total buyings in november",
+            "quantity of buyings in november",
+            "buyings total in november",
+            "buyings from november",
+            "number of buyings from november",
+            "count buyings from november",
+            "total buyings from november",
+            "quantity of buyings from november",
+            "buyings total from november"
+        ],
+        "responses": ["The number of buyings for november is novemberbuying."]
+    },
+    {
+        "tag": "decemberbuying",
+        "patterns": [
+            "buyings for december",
+            "december buyings",
+            "number of buyings in december",
+            "count buyings in december",
+            "total buyings in december",
+            "quantity of buyings in december",
+            "buyings total in december",
+            "buyings from december",
+            "number of buyings from december",
+            "count buyings from december",
+            "total buyings from december",
+            "quantity of buyings from december",
+            "buyings total from december"
+        ],
+        "responses": ["The number of buyings for december is decemberbuying."]
+    }
+]

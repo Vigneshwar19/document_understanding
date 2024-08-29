@@ -1,0 +1,318 @@
+[
+    {
+        "tag": "lastmonthffrBooking",
+        "patterns": [
+            "how many ffrBookings added in the last month",
+            "how many ffrBookings from last month",
+            "last month ffrBookings",
+            "ffrBookings in last month",
+            "number of ffrBookings from last month",
+            "count ffrBookings from last month",
+            "total ffrBookings from last month",
+            "quantity of ffrBookings from last month",
+            "ffrBookings total from last month",
+            "number of ffrBookings in last month",
+            "count ffrBookings in last month",
+            "total ffrBookings in last month",
+            "quantity of ffrBookings in last month",
+            "ffrBookings total in last month"
+        ],        
+        "responses": ["The number of ffrBookings added in the last month is lastmonthffrBooking."]
+    },
+    {
+        "tag": "lastyearffrBooking",
+        "patterns": [
+            "how many ffrBookings added in the last year",
+            "how many ffrBookings from last year",
+            "last year ffrBookings",
+            "ffrBookings in last year",
+            "number of ffrBookings from last year",
+            "count ffrBookings from last year",
+            "total ffrBookings from last year",
+            "quantity of ffrBookings from last year",
+            "ffrBookings total from last year",
+            "number of ffrBookings in last year",
+            "count ffrBookings in last year",
+            "total ffrBookings in last year",
+            "quantity of ffrBookings in last year",
+            "ffrBookings total in last year"
+        ],        
+        "responses": ["The number of ffrBookings added in the last year is lastyearffrBooking."]
+    },
+    {
+        "tag": "search_request",
+        "patterns": [ "I want to find ", "I wish to find ", "I need to find ", "I'm looking to find ", "I'm searching for ", "I'm interested in finding ", "Can you help me find ", "Can you assist me in finding ", "Please find ", "Please help me find ", "Seeking to find ", "Looking for ", "Search for ", "Find by ", "Search by ", "Can you find " ],
+        "responses": ["Sure, what are you looking for?"]
+    },            
+    {
+        "tag": "nameffrBooking",
+        "patterns": [
+            "how many ffrBookings from",
+            "ffrBookings from",
+            "ffrBookings frm",
+            "number of ffrBookings from",
+            "count ffrBookings from",
+            "total ffrBookings from",
+            "quantity of ffrBookings from",
+            "ffrBookings total from",
+            "number of ffrBookings by",
+            "count ffrBookings by",
+            "total ffrBookings by",
+            "quantity of ffrBookings by",
+            "ffrBookings total by",
+            "how many ffrBookings",
+            "how many total ffrBookings",
+            "how many ffrBookings total",
+            "how many ffrBookings in total",
+            "how many ffrBookings last month"
+        ],                
+        "responses": ["The number of ffrBookings from name is nameffrBooking."]
+    },
+    {
+        "tag": "lastweekffrBooking",
+        "patterns": [
+            "last week ffrBookings",
+            "ffrBookings for the last week",
+            "number of ffrBookings last week",
+            "count ffrBookings last week",
+            "total ffrBookings last week",
+            "quantity of ffrBookings last week",
+            "ffrBookings total last week",
+            "ffrBookings from last week",
+            "number of ffrBookings from last week",
+            "count ffrBookings from last week",
+            "total ffrBookings from last week",
+            "quantity of ffrBookings from last week",
+            "ffrBookings total from last week"
+        ],        
+        "responses": ["The number of ffrBookings added last week is lastweekffrBooking."]
+    },
+    {
+        "tag": "januaryffrBooking",
+        "patterns": [
+            "ffrBookings for january",
+            "january ffrBookings",
+            "number of ffrBookings in january",
+            "count ffrBookings in january",
+            "total ffrBookings in january",
+            "quantity of ffrBookings in january",
+            "ffrBookings total in january",
+            "ffrBookings from january",
+            "number of ffrBookings from january",
+            "count ffrBookings from january",
+            "total ffrBookings from january",
+            "quantity of ffrBookings from january",
+            "ffrBookings total from january"
+        ],        
+        "responses": ["The number of ffrBookings for january is januaryffrBooking."]
+    },
+    {
+        "tag": "februaryffrBooking",
+        "patterns": [
+            "ffrBookings for february",
+            "february ffrBookings",
+            "number of ffrBookings in february",
+            "count ffrBookings in february",
+            "total ffrBookings in february",
+            "quantity of ffrBookings in february",
+            "ffrBookings total in february",
+            "ffrBookings from february",
+            "number of ffrBookings from february",
+            "count ffrBookings from february",
+            "total ffrBookings from february",
+            "quantity of ffrBookings from february",
+            "ffrBookings total from february"
+        ],
+        "responses": ["The number of ffrBookings for february is februaryffrBooking."]
+    },
+    {
+        "tag": "marchffrBooking",
+        "patterns": [
+            "ffrBookings for march",
+            "march ffrBookings",
+            "number of ffrBookings in march",
+            "count ffrBookings in march",
+            "total ffrBookings in march",
+            "quantity of ffrBookings in march",
+            "ffrBookings total in march",
+            "ffrBookings from march",
+            "number of ffrBookings from march",
+            "count ffrBookings from march",
+            "total ffrBookings from march",
+            "quantity of ffrBookings from march",
+            "ffrBookings total from march"
+        ],
+        "responses": ["The number of ffrBookings for march is marchffrBooking."]
+    },
+    {
+        "tag": "aprilffrBooking",
+        "patterns": [
+            "ffrBookings for april",
+            "april ffrBookings",
+            "number of ffrBookings in april",
+            "count ffrBookings in april",
+            "total ffrBookings in april",
+            "quantity of ffrBookings in april",
+            "ffrBookings total in april",
+            "ffrBookings from april",
+            "number of ffrBookings from april",
+            "count ffrBookings from april",
+            "total ffrBookings from april",
+            "quantity of ffrBookings from april",
+            "ffrBookings total from april"
+        ],
+        "responses": ["The number of ffrBookings for april is aprilffrBooking."]
+    },
+    {
+        "tag": "mayffrBooking",
+        "patterns": [
+            "ffrBookings for may",
+            "may ffrBookings",
+            "number of ffrBookings in may",
+            "count ffrBookings in may",
+            "total ffrBookings in may",
+            "quantity of ffrBookings in may",
+            "ffrBookings total in may",
+            "ffrBookings from may",
+            "number of ffrBookings from may",
+            "count ffrBookings from may",
+            "total ffrBookings from may",
+            "quantity of ffrBookings from may",
+            "ffrBookings total from may"
+        ],
+        "responses": ["The number of ffrBookings for may is mayffrBooking."]
+    },
+    {
+        "tag": "juneffrBooking",
+        "patterns": [
+            "ffrBookings for june",
+            "june ffrBookings",
+            "number of ffrBookings in june",
+            "count ffrBookings in june",
+            "total ffrBookings in june",
+            "quantity of ffrBookings in june",
+            "ffrBookings total in june",
+            "ffrBookings from june",
+            "number of ffrBookings from june",
+            "count ffrBookings from june",
+            "total ffrBookings from june",
+            "quantity of ffrBookings from june",
+            "ffrBookings total from june"
+        ],
+        "responses": ["The number of ffrBookings for june is juneffrBooking."]
+    },
+    {
+        "tag": "julyffrBooking",
+        "patterns": [
+            "ffrBookings for july",
+            "july ffrBookings",
+            "number of ffrBookings in july",
+            "count ffrBookings in july",
+            "total ffrBookings in july",
+            "quantity of ffrBookings in july",
+            "ffrBookings total in july",
+            "ffrBookings from july",
+            "number of ffrBookings from july",
+            "count ffrBookings from july",
+            "total ffrBookings from july",
+            "quantity of ffrBookings from july",
+            "ffrBookings total from july"
+        ],
+        "responses": ["The number of ffrBookings for july is julyffrBooking."]
+    },
+    {
+        "tag": "augustffrBooking",
+        "patterns": [
+            "ffrBookings for august",
+            "august ffrBookings",
+            "number of ffrBookings in august",
+            "count ffrBookings in august",
+            "total ffrBookings in august",
+            "quantity of ffrBookings in august",
+            "ffrBookings total in august",
+            "ffrBookings from august",
+            "number of ffrBookings from august",
+            "count ffrBookings from august",
+            "total ffrBookings from august",
+            "quantity of ffrBookings from august",
+            "ffrBookings total from august"
+        ],
+        "responses": ["The number of ffrBookings for august is augustffrBooking."]
+    },
+    {
+        "tag": "septemberffrBooking",
+        "patterns": [
+            "ffrBookings for september",
+            "september ffrBookings",
+            "number of ffrBookings in september",
+            "count ffrBookings in september",
+            "total ffrBookings in september",
+            "quantity of ffrBookings in september",
+            "ffrBookings total in september",
+            "ffrBookings from september",
+            "number of ffrBookings from september",
+            "count ffrBookings from september",
+            "total ffrBookings from september",
+            "quantity of ffrBookings from september",
+            "ffrBookings total from september"
+        ],
+        "responses": ["The number of ffrBookings for september is septemberffrBooking."]
+    },
+    {
+        "tag": "octoberffrBooking",
+        "patterns": [
+            "ffrBookings for october",
+            "october ffrBookings",
+            "number of ffrBookings in october",
+            "count ffrBookings in october",
+            "total ffrBookings in october",
+            "quantity of ffrBookings in october",
+            "ffrBookings total in october",
+            "ffrBookings from october",
+            "number of ffrBookings from october",
+            "count ffrBookings from october",
+            "total ffrBookings from october",
+            "quantity of ffrBookings from october",
+            "ffrBookings total from october"
+        ],
+        "responses": ["The number of ffrBookings for october is octoberffrBooking."]
+    },
+    {
+        "tag": "novemberffrBooking",
+        "patterns": [
+            "ffrBookings for november",
+            "november ffrBookings",
+            "number of ffrBookings in november",
+            "count ffrBookings in november",
+            "total ffrBookings in november",
+            "quantity of ffrBookings in november",
+            "ffrBookings total in november",
+            "ffrBookings from november",
+            "number of ffrBookings from november",
+            "count ffrBookings from november",
+            "total ffrBookings from november",
+            "quantity of ffrBookings from november",
+            "ffrBookings total from november"
+        ],
+        "responses": ["The number of ffrBookings for november is novemberffrBooking."]
+    },
+    {
+        "tag": "decemberffrBooking",
+        "patterns": [
+            "ffrBookings for december",
+            "december ffrBookings",
+            "number of ffrBookings in december",
+            "count ffrBookings in december",
+            "total ffrBookings in december",
+            "quantity of ffrBookings in december",
+            "ffrBookings total in december",
+            "ffrBookings from december",
+            "number of ffrBookings from december",
+            "count ffrBookings from december",
+            "total ffrBookings from december",
+            "quantity of ffrBookings from december",
+            "ffrBookings total from december"
+        ],
+        "responses": ["The number of ffrBookings for december is decemberffrBooking."]
+    }
+]

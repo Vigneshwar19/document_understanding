@@ -1,0 +1,318 @@
+[
+    {
+        "tag": "lastmonthreceipt",
+        "patterns": [
+            "how many receipts added in the last month",
+            "how many receipts from last month",
+            "last month receipts",
+            "receipts in last month",
+            "number of receipts from last month",
+            "count receipts from last month",
+            "total receipts from last month",
+            "quantity of receipts from last month",
+            "receipts total from last month",
+            "number of receipts in last month",
+            "count receipts in last month",
+            "total receipts in last month",
+            "quantity of receipts in last month",
+            "receipts total in last month"
+        ],        
+        "responses": ["The number of receipts added in the last month is lastmonthreceipt."]
+    },
+    {
+        "tag": "lastyearreceipt",
+        "patterns": [
+            "how many receipts added in the last year",
+            "how many receipts from last year",
+            "last year receipts",
+            "receipts in last year",
+            "number of receipts from last year",
+            "count receipts from last year",
+            "total receipts from last year",
+            "quantity of receipts from last year",
+            "receipts total from last year",
+            "number of receipts in last year",
+            "count receipts in last year",
+            "total receipts in last year",
+            "quantity of receipts in last year",
+            "receipts total in last year"
+        ],        
+        "responses": ["The number of receipts added in the last year is lastyearreceipt."]
+    },
+    {
+        "tag": "search_request",
+        "patterns": [ "I want to find ", "I wish to find ", "I need to find ", "I'm looking to find ", "I'm searching for ", "I'm interested in finding ", "Can you help me find ", "Can you assist me in finding ", "Please find ", "Please help me find ", "Seeking to find ", "Looking for ", "Search for ", "Find by ", "Search by ", "Can you find " ],
+        "responses": ["Sure, what are you looking for?"]
+    },            
+    {
+        "tag": "namereceipt",
+        "patterns": [
+            "how many receipts from",
+            "receipts from",
+            "receipts frm",
+            "number of receipts from",
+            "count receipts from",
+            "total receipts from",
+            "quantity of receipts from",
+            "receipts total from",
+            "number of receipts by",
+            "count receipts by",
+            "total receipts by",
+            "quantity of receipts by",
+            "receipts total by",
+            "how many receipts",
+            "how many total receipts",
+            "how many receipts total",
+            "how many receipts in total",
+            "how many receipts last month"
+        ],                
+        "responses": ["The number of receipts from name is namereceipt."]
+    },
+    {
+        "tag": "lastweekreceipt",
+        "patterns": [
+            "last week receipts",
+            "receipts for the last week",
+            "number of receipts last week",
+            "count receipts last week",
+            "total receipts last week",
+            "quantity of receipts last week",
+            "receipts total last week",
+            "receipts from last week",
+            "number of receipts from last week",
+            "count receipts from last week",
+            "total receipts from last week",
+            "quantity of receipts from last week",
+            "receipts total from last week"
+        ],        
+        "responses": ["The number of receipts added last week is lastweekreceipt."]
+    },
+    {
+        "tag": "januaryreceipt",
+        "patterns": [
+            "receipts for january",
+            "january receipts",
+            "number of receipts in january",
+            "count receipts in january",
+            "total receipts in january",
+            "quantity of receipts in january",
+            "receipts total in january",
+            "receipts from january",
+            "number of receipts from january",
+            "count receipts from january",
+            "total receipts from january",
+            "quantity of receipts from january",
+            "receipts total from january"
+        ],        
+        "responses": ["The number of receipts for january is januaryreceipt."]
+    },
+    {
+        "tag": "februaryreceipt",
+        "patterns": [
+            "receipts for february",
+            "february receipts",
+            "number of receipts in february",
+            "count receipts in february",
+            "total receipts in february",
+            "quantity of receipts in february",
+            "receipts total in february",
+            "receipts from february",
+            "number of receipts from february",
+            "count receipts from february",
+            "total receipts from february",
+            "quantity of receipts from february",
+            "receipts total from february"
+        ],
+        "responses": ["The number of receipts for february is februaryreceipt."]
+    },
+    {
+        "tag": "marchreceipt",
+        "patterns": [
+            "receipts for march",
+            "march receipts",
+            "number of receipts in march",
+            "count receipts in march",
+            "total receipts in march",
+            "quantity of receipts in march",
+            "receipts total in march",
+            "receipts from march",
+            "number of receipts from march",
+            "count receipts from march",
+            "total receipts from march",
+            "quantity of receipts from march",
+            "receipts total from march"
+        ],
+        "responses": ["The number of receipts for march is marchreceipt."]
+    },
+    {
+        "tag": "aprilreceipt",
+        "patterns": [
+            "receipts for april",
+            "april receipts",
+            "number of receipts in april",
+            "count receipts in april",
+            "total receipts in april",
+            "quantity of receipts in april",
+            "receipts total in april",
+            "receipts from april",
+            "number of receipts from april",
+            "count receipts from april",
+            "total receipts from april",
+            "quantity of receipts from april",
+            "receipts total from april"
+        ],
+        "responses": ["The number of receipts for april is aprilreceipt."]
+    },
+    {
+        "tag": "mayreceipt",
+        "patterns": [
+            "receipts for may",
+            "may receipts",
+            "number of receipts in may",
+            "count receipts in may",
+            "total receipts in may",
+            "quantity of receipts in may",
+            "receipts total in may",
+            "receipts from may",
+            "number of receipts from may",
+            "count receipts from may",
+            "total receipts from may",
+            "quantity of receipts from may",
+            "receipts total from may"
+        ],
+        "responses": ["The number of receipts for may is mayreceipt."]
+    },
+    {
+        "tag": "junereceipt",
+        "patterns": [
+            "receipts for june",
+            "june receipts",
+            "number of receipts in june",
+            "count receipts in june",
+            "total receipts in june",
+            "quantity of receipts in june",
+            "receipts total in june",
+            "receipts from june",
+            "number of receipts from june",
+            "count receipts from june",
+            "total receipts from june",
+            "quantity of receipts from june",
+            "receipts total from june"
+        ],
+        "responses": ["The number of receipts for june is junereceipt."]
+    },
+    {
+        "tag": "julyreceipt",
+        "patterns": [
+            "receipts for july",
+            "july receipts",
+            "number of receipts in july",
+            "count receipts in july",
+            "total receipts in july",
+            "quantity of receipts in july",
+            "receipts total in july",
+            "receipts from july",
+            "number of receipts from july",
+            "count receipts from july",
+            "total receipts from july",
+            "quantity of receipts from july",
+            "receipts total from july"
+        ],
+        "responses": ["The number of receipts for july is julyreceipt."]
+    },
+    {
+        "tag": "augustreceipt",
+        "patterns": [
+            "receipts for august",
+            "august receipts",
+            "number of receipts in august",
+            "count receipts in august",
+            "total receipts in august",
+            "quantity of receipts in august",
+            "receipts total in august",
+            "receipts from august",
+            "number of receipts from august",
+            "count receipts from august",
+            "total receipts from august",
+            "quantity of receipts from august",
+            "receipts total from august"
+        ],
+        "responses": ["The number of receipts for august is augustreceipt."]
+    },
+    {
+        "tag": "septemberreceipt",
+        "patterns": [
+            "receipts for september",
+            "september receipts",
+            "number of receipts in september",
+            "count receipts in september",
+            "total receipts in september",
+            "quantity of receipts in september",
+            "receipts total in september",
+            "receipts from september",
+            "number of receipts from september",
+            "count receipts from september",
+            "total receipts from september",
+            "quantity of receipts from september",
+            "receipts total from september"
+        ],
+        "responses": ["The number of receipts for september is septemberreceipt."]
+    },
+    {
+        "tag": "octoberreceipt",
+        "patterns": [
+            "receipts for october",
+            "october receipts",
+            "number of receipts in october",
+            "count receipts in october",
+            "total receipts in october",
+            "quantity of receipts in october",
+            "receipts total in october",
+            "receipts from october",
+            "number of receipts from october",
+            "count receipts from october",
+            "total receipts from october",
+            "quantity of receipts from october",
+            "receipts total from october"
+        ],
+        "responses": ["The number of receipts for october is octoberreceipt."]
+    },
+    {
+        "tag": "novemberreceipt",
+        "patterns": [
+            "receipts for november",
+            "november receipts",
+            "number of receipts in november",
+            "count receipts in november",
+            "total receipts in november",
+            "quantity of receipts in november",
+            "receipts total in november",
+            "receipts from november",
+            "number of receipts from november",
+            "count receipts from november",
+            "total receipts from november",
+            "quantity of receipts from november",
+            "receipts total from november"
+        ],
+        "responses": ["The number of receipts for november is novemberreceipt."]
+    },
+    {
+        "tag": "decemberreceipt",
+        "patterns": [
+            "receipts for december",
+            "december receipts",
+            "number of receipts in december",
+            "count receipts in december",
+            "total receipts in december",
+            "quantity of receipts in december",
+            "receipts total in december",
+            "receipts from december",
+            "number of receipts from december",
+            "count receipts from december",
+            "total receipts from december",
+            "quantity of receipts from december",
+            "receipts total from december"
+        ],
+        "responses": ["The number of receipts for december is decemberreceipt."]
+    }
+]

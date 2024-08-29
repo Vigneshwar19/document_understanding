@@ -1,0 +1,40 @@
+[
+    {
+        "tag": "quotationquery",
+        "patterns": [
+            "quotations from name",
+            "how many [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "total number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "quantity of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations last month from [quotation source, sales executive,country] with name",
+            "how many [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations were there from [quotation source, sales executive,country] last month with name",
+            "number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations in the last month from [quotation source, sales executive,country] with name",
+            "count of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations for last month from [quotation source, sales executive,country] with name",
+            "tell me the total number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "how many [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] were quoted from [quotation source, sales executive,country] last month with name",
+            "total count of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations provided by [quotation source, sales executive,country] last month with name",
+            "how many [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations came from [quotation source, sales executive,country] for last month with name"
+        ],
+        "responses": ["The number of for last month with name is quotationquery."]
+    },
+    {
+        "tag": "quotationquery2",
+        "patterns": [
+            "quotations from name",
+            "how many [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "total number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "quantity of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations last month from [quotation source, sales executive,country] with name",
+            "how many [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations were there from [quotation source, sales executive,country] last month with name",
+            "number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations in the last month from [quotation source, sales executive,country] with name",
+            "count of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations for last month from [quotation source, sales executive,country] with name",
+            "tell me the total number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "how many [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] were quoted from [quotation source, sales executive,country] last month with name",
+            "total count of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations from [quotation source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations provided by [quotation source, sales executive,country] last month with name",
+            "how many [domestic,prospect,shipment type,status,quotation TYPE,SHIPMENT TERM] quotations came from [quotation source, sales executive,country] for last month with name"
+        ],
+        "responses": ["The number of for last month with name is quotationquery."]
+    }
+]

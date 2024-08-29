@@ -1,0 +1,40 @@
+[
+    {
+        "tag": "enquiryquery",
+        "patterns": [
+            "enquirys from name",
+            "how many [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "total number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "quantity of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys last month from [enquiry source, sales executive,country] with name",
+            "how many [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys were there from [enquiry source, sales executive,country] last month with name",
+            "number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys in the last month from [enquiry source, sales executive,country] with name",
+            "count of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys for last month from [enquiry source, sales executive,country] with name",
+            "tell me the total number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "how many [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] were quoted from [enquiry source, sales executive,country] last month with name",
+            "total count of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys provided by [enquiry source, sales executive,country] last month with name",
+            "how many [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys came from [enquiry source, sales executive,country] for last month with name"
+        ],
+        "responses": ["The number of for last month with name is enquiryquery."]
+    },
+    {
+        "tag": "enquiryquery2",
+        "patterns": [
+            "enquirys from name",
+            "how many [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "total number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "quantity of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys last month from [enquiry source, sales executive,country] with name",
+            "how many [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys were there from [enquiry source, sales executive,country] last month with name",
+            "number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys in the last month from [enquiry source, sales executive,country] with name",
+            "count of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys for last month from [enquiry source, sales executive,country] with name",
+            "tell me the total number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "how many [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] were quoted from [enquiry source, sales executive,country] last month with name",
+            "total count of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys from [enquiry source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys provided by [enquiry source, sales executive,country] last month with name",
+            "how many [domestic,prospect,shipment type,status,enquiry TYPE,SHIPMENT TERM] enquirys came from [enquiry source, sales executive,country] for last month with name"
+        ],
+        "responses": ["The number of for last month with name is enquiryquery."]
+    }
+]

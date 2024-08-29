@@ -1,0 +1,318 @@
+[
+    {
+        "tag": "lastmonthcustombooking",
+        "patterns": [
+            "how many custombookings added in the last month",
+            "how many custombookings from last month",
+            "last month custombookings",
+            "custombookings in last month",
+            "number of custombookings from last month",
+            "count custombookings from last month",
+            "total custombookings from last month",
+            "quantity of custombookings from last month",
+            "custombookings total from last month",
+            "number of custombookings in last month",
+            "count custombookings in last month",
+            "total custombookings in last month",
+            "quantity of custombookings in last month",
+            "custombookings total in last month"
+        ],        
+        "responses": ["The number of custombookings added in the last month is lastmonthcustombooking."]
+    },
+    {
+        "tag": "lastyearcustombooking",
+        "patterns": [
+            "how many custombookings added in the last year",
+            "how many custombookings from last year",
+            "last year custombookings",
+            "custombookings in last year",
+            "number of custombookings from last year",
+            "count custombookings from last year",
+            "total custombookings from last year",
+            "quantity of custombookings from last year",
+            "custombookings total from last year",
+            "number of custombookings in last year",
+            "count custombookings in last year",
+            "total custombookings in last year",
+            "quantity of custombookings in last year",
+            "custombookings total in last year"
+        ],        
+        "responses": ["The number of custombookings added in the last year is lastyearcustombooking."]
+    },
+    {
+        "tag": "search_request",
+        "patterns": [ "I want to find ", "I wish to find ", "I need to find ", "I'm looking to find ", "I'm searching for ", "I'm interested in finding ", "Can you help me find ", "Can you assist me in finding ", "Please find ", "Please help me find ", "Seeking to find ", "Looking for ", "Search for ", "Find by ", "Search by ", "Can you find " ],
+        "responses": ["Sure, what are you looking for?"]
+    },            
+    {
+        "tag": "namecustombooking",
+        "patterns": [
+            "how many custombookings from",
+            "custombookings from",
+            "custombookings frm",
+            "number of custombookings from",
+            "count custombookings from",
+            "total custombookings from",
+            "quantity of custombookings from",
+            "custombookings total from",
+            "number of custombookings by",
+            "count custombookings by",
+            "total custombookings by",
+            "quantity of custombookings by",
+            "custombookings total by",
+            "how many custombookings",
+            "how many total custombookings",
+            "how many custombookings total",
+            "how many custombookings in total",
+            "how many custombookings last month"
+        ],                
+        "responses": ["The number of custombookings from name is namecustombooking."]
+    },
+    {
+        "tag": "lastweekcustombooking",
+        "patterns": [
+            "last week custombookings",
+            "custombookings for the last week",
+            "number of custombookings last week",
+            "count custombookings last week",
+            "total custombookings last week",
+            "quantity of custombookings last week",
+            "custombookings total last week",
+            "custombookings from last week",
+            "number of custombookings from last week",
+            "count custombookings from last week",
+            "total custombookings from last week",
+            "quantity of custombookings from last week",
+            "custombookings total from last week"
+        ],        
+        "responses": ["The number of custombookings added last week is lastweekcustombooking."]
+    },
+    {
+        "tag": "januarycustombooking",
+        "patterns": [
+            "custombookings for january",
+            "january custombookings",
+            "number of custombookings in january",
+            "count custombookings in january",
+            "total custombookings in january",
+            "quantity of custombookings in january",
+            "custombookings total in january",
+            "custombookings from january",
+            "number of custombookings from january",
+            "count custombookings from january",
+            "total custombookings from january",
+            "quantity of custombookings from january",
+            "custombookings total from january"
+        ],        
+        "responses": ["The number of custombookings for january is januarycustombooking."]
+    },
+    {
+        "tag": "februarycustombooking",
+        "patterns": [
+            "custombookings for february",
+            "february custombookings",
+            "number of custombookings in february",
+            "count custombookings in february",
+            "total custombookings in february",
+            "quantity of custombookings in february",
+            "custombookings total in february",
+            "custombookings from february",
+            "number of custombookings from february",
+            "count custombookings from february",
+            "total custombookings from february",
+            "quantity of custombookings from february",
+            "custombookings total from february"
+        ],
+        "responses": ["The number of custombookings for february is februarycustombooking."]
+    },
+    {
+        "tag": "marchcustombooking",
+        "patterns": [
+            "custombookings for march",
+            "march custombookings",
+            "number of custombookings in march",
+            "count custombookings in march",
+            "total custombookings in march",
+            "quantity of custombookings in march",
+            "custombookings total in march",
+            "custombookings from march",
+            "number of custombookings from march",
+            "count custombookings from march",
+            "total custombookings from march",
+            "quantity of custombookings from march",
+            "custombookings total from march"
+        ],
+        "responses": ["The number of custombookings for march is marchcustombooking."]
+    },
+    {
+        "tag": "aprilcustombooking",
+        "patterns": [
+            "custombookings for april",
+            "april custombookings",
+            "number of custombookings in april",
+            "count custombookings in april",
+            "total custombookings in april",
+            "quantity of custombookings in april",
+            "custombookings total in april",
+            "custombookings from april",
+            "number of custombookings from april",
+            "count custombookings from april",
+            "total custombookings from april",
+            "quantity of custombookings from april",
+            "custombookings total from april"
+        ],
+        "responses": ["The number of custombookings for april is aprilcustombooking."]
+    },
+    {
+        "tag": "maycustombooking",
+        "patterns": [
+            "custombookings for may",
+            "may custombookings",
+            "number of custombookings in may",
+            "count custombookings in may",
+            "total custombookings in may",
+            "quantity of custombookings in may",
+            "custombookings total in may",
+            "custombookings from may",
+            "number of custombookings from may",
+            "count custombookings from may",
+            "total custombookings from may",
+            "quantity of custombookings from may",
+            "custombookings total from may"
+        ],
+        "responses": ["The number of custombookings for may is maycustombooking."]
+    },
+    {
+        "tag": "junecustombooking",
+        "patterns": [
+            "custombookings for june",
+            "june custombookings",
+            "number of custombookings in june",
+            "count custombookings in june",
+            "total custombookings in june",
+            "quantity of custombookings in june",
+            "custombookings total in june",
+            "custombookings from june",
+            "number of custombookings from june",
+            "count custombookings from june",
+            "total custombookings from june",
+            "quantity of custombookings from june",
+            "custombookings total from june"
+        ],
+        "responses": ["The number of custombookings for june is junecustombooking."]
+    },
+    {
+        "tag": "julycustombooking",
+        "patterns": [
+            "custombookings for july",
+            "july custombookings",
+            "number of custombookings in july",
+            "count custombookings in july",
+            "total custombookings in july",
+            "quantity of custombookings in july",
+            "custombookings total in july",
+            "custombookings from july",
+            "number of custombookings from july",
+            "count custombookings from july",
+            "total custombookings from july",
+            "quantity of custombookings from july",
+            "custombookings total from july"
+        ],
+        "responses": ["The number of custombookings for july is julycustombooking."]
+    },
+    {
+        "tag": "augustcustombooking",
+        "patterns": [
+            "custombookings for august",
+            "august custombookings",
+            "number of custombookings in august",
+            "count custombookings in august",
+            "total custombookings in august",
+            "quantity of custombookings in august",
+            "custombookings total in august",
+            "custombookings from august",
+            "number of custombookings from august",
+            "count custombookings from august",
+            "total custombookings from august",
+            "quantity of custombookings from august",
+            "custombookings total from august"
+        ],
+        "responses": ["The number of custombookings for august is augustcustombooking."]
+    },
+    {
+        "tag": "septembercustombooking",
+        "patterns": [
+            "custombookings for september",
+            "september custombookings",
+            "number of custombookings in september",
+            "count custombookings in september",
+            "total custombookings in september",
+            "quantity of custombookings in september",
+            "custombookings total in september",
+            "custombookings from september",
+            "number of custombookings from september",
+            "count custombookings from september",
+            "total custombookings from september",
+            "quantity of custombookings from september",
+            "custombookings total from september"
+        ],
+        "responses": ["The number of custombookings for september is septembercustombooking."]
+    },
+    {
+        "tag": "octobercustombooking",
+        "patterns": [
+            "custombookings for october",
+            "october custombookings",
+            "number of custombookings in october",
+            "count custombookings in october",
+            "total custombookings in october",
+            "quantity of custombookings in october",
+            "custombookings total in october",
+            "custombookings from october",
+            "number of custombookings from october",
+            "count custombookings from october",
+            "total custombookings from october",
+            "quantity of custombookings from october",
+            "custombookings total from october"
+        ],
+        "responses": ["The number of custombookings for october is octobercustombooking."]
+    },
+    {
+        "tag": "novembercustombooking",
+        "patterns": [
+            "custombookings for november",
+            "november custombookings",
+            "number of custombookings in november",
+            "count custombookings in november",
+            "total custombookings in november",
+            "quantity of custombookings in november",
+            "custombookings total in november",
+            "custombookings from november",
+            "number of custombookings from november",
+            "count custombookings from november",
+            "total custombookings from november",
+            "quantity of custombookings from november",
+            "custombookings total from november"
+        ],
+        "responses": ["The number of custombookings for november is novembercustombooking."]
+    },
+    {
+        "tag": "decembercustombooking",
+        "patterns": [
+            "custombookings for december",
+            "december custombookings",
+            "number of custombookings in december",
+            "count custombookings in december",
+            "total custombookings in december",
+            "quantity of custombookings in december",
+            "custombookings total in december",
+            "custombookings from december",
+            "number of custombookings from december",
+            "count custombookings from december",
+            "total custombookings from december",
+            "quantity of custombookings from december",
+            "custombookings total from december"
+        ],
+        "responses": ["The number of custombookings for december is decembercustombooking."]
+    }
+]

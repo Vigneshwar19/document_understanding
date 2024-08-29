@@ -1,0 +1,22 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello! How can I assist you today?"]
+    },
+    {
+        "tag": "order_status",
+        "patterns": ["What is the status of my order?", "Can you check my order status?"],
+        "responses": ["Let me check the status of your order."],
+        "follow_up": {
+            "tag": "provide_tracking_details",
+            "patterns": ["Can you provide the tracking details?", "Where is my package?"],
+            "responses": ["Your order is currently out for delivery. Here is your tracking number."]
+        }
+    },
+    {
+        "tag": "farewell",
+        "patterns": ["Bye", "Goodbye", "See you later"],
+        "responses": ["Goodbye! Have a great day!"]
+    }
+]

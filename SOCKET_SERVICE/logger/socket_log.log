@@ -1,0 +1,786 @@
+2024-07-17 14:07:58,299 - INFO - Client connected
+2024-07-17 14:08:16,852 - INFO - Client disconnected
+2024-07-17 14:08:16,933 - INFO - Client connected
+2024-07-17 14:08:16,943 - INFO - Client joined room for tenant 8
+2024-07-17 14:08:21,347 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:08', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:08:21,372 - INFO - Database change: ARUN - new message inserted
+2024-07-17 14:10:09,000 - INFO - Client connected
+2024-07-17 14:10:15,015 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:08', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:15,026 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:24,063 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:08', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:24,065 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:37,852 - INFO - Client disconnected
+2024-07-17 14:10:37,946 - INFO - Client connected
+2024-07-17 14:10:37,957 - INFO - Client joined room for tenant 8
+2024-07-17 14:10:39,326 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:10', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:39,328 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:43,731 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:10', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:43,735 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:47,483 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:10', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:47,485 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:51,936 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:10', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:51,939 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:53,562 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:10', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:53,567 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:54,584 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:10', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:54,587 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:55,632 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:10', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:55,636 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:56,651 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:10', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:56,654 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:10:57,592 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new message inserted', 'current_date': '2024-07-17 14:10', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:10:57,597 - INFO - Data Sent: ARUN - new message inserted
+2024-07-17 14:11:05,113 - INFO - Client disconnected
+2024-07-17 14:11:05,192 - INFO - Client connected
+2024-07-17 14:11:05,202 - INFO - Client joined room for tenant 8
+2024-07-17 14:13:30,510 - INFO - Client connected
+2024-07-17 14:13:43,681 - INFO - Client disconnected
+2024-07-17 14:13:43,868 - INFO - Client connected
+2024-07-17 14:13:43,883 - INFO - Client joined room for tenant 8
+2024-07-17 14:13:45,917 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:13', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:13:45,936 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:14:33,884 - INFO - Client disconnected
+2024-07-17 14:14:33,971 - INFO - Client connected
+2024-07-17 14:14:33,980 - INFO - Client joined room for tenant 8
+2024-07-17 14:14:39,898 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:14', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:14:39,901 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:17:19,247 - INFO - Client disconnected
+2024-07-17 14:17:19,347 - INFO - Client connected
+2024-07-17 14:17:19,365 - INFO - Client joined room for tenant 8
+2024-07-17 14:17:21,375 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:17', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:17:21,377 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:24:32,885 - INFO - Client disconnected
+2024-07-17 14:24:32,989 - INFO - Client connected
+2024-07-17 14:24:33,002 - INFO - Client joined room for tenant 8
+2024-07-17 14:24:33,319 - INFO - Client disconnected
+2024-07-17 14:24:33,415 - INFO - Client connected
+2024-07-17 14:24:33,429 - INFO - Client joined room for tenant 8
+2024-07-17 14:24:47,165 - INFO - Client disconnected
+2024-07-17 14:24:47,331 - INFO - Client connected
+2024-07-17 14:24:47,345 - INFO - Client joined room for tenant 8
+2024-07-17 14:24:49,004 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:24', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:24:49,010 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:24:54,290 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:24', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:24:54,294 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:24:55,422 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:24', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:24:55,425 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:24:56,594 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:24', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:24:56,595 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:24:57,726 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:24', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:24:57,729 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:26:33,773 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:24', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:26:33,776 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:26:38,592 - INFO - Client disconnected
+2024-07-17 14:26:38,667 - INFO - Client connected
+2024-07-17 14:26:38,693 - INFO - Client joined room for tenant 8
+2024-07-17 14:26:39,655 - INFO - Client disconnected
+2024-07-17 14:26:39,729 - INFO - Client connected
+2024-07-17 14:26:39,751 - INFO - Client joined room for tenant 8
+2024-07-17 14:26:40,334 - INFO - Client disconnected
+2024-07-17 14:26:40,407 - INFO - Client connected
+2024-07-17 14:26:40,420 - INFO - Client joined room for tenant 8
+2024-07-17 14:27:41,609 - INFO - Client connected
+2024-07-17 14:27:41,628 - INFO - Client joined room for tenant 8
+2024-07-17 14:27:50,999 - INFO - Client connected
+2024-07-17 14:27:51,016 - INFO - Client joined room for tenant 10
+2024-07-17 14:27:53,099 - INFO - Client connected
+2024-07-17 14:27:53,116 - INFO - Client joined room for tenant 10
+2024-07-17 14:28:01,045 - INFO - Client disconnected
+2024-07-17 14:28:01,147 - INFO - Client connected
+2024-07-17 14:28:01,174 - INFO - Client joined room for tenant 8
+2024-07-17 14:28:10,899 - INFO - Client disconnected
+2024-07-17 14:28:11,018 - INFO - Client connected
+2024-07-17 14:28:11,038 - INFO - Client joined room for tenant 8
+2024-07-17 14:28:18,459 - INFO - Client disconnected
+2024-07-17 14:28:18,607 - INFO - Client connected
+2024-07-17 14:28:18,632 - INFO - Client joined room for tenant 8
+2024-07-17 14:28:20,346 - INFO - Client disconnected
+2024-07-17 14:28:20,602 - INFO - Client connected
+2024-07-17 14:28:20,656 - INFO - Client joined room for tenant 8
+2024-07-17 14:28:21,953 - INFO - Client disconnected
+2024-07-17 14:28:22,250 - INFO - Client connected
+2024-07-17 14:28:22,311 - INFO - Client joined room for tenant 8
+2024-07-17 14:28:23,665 - INFO - Client disconnected
+2024-07-17 14:28:23,937 - INFO - Client connected
+2024-07-17 14:28:23,986 - INFO - Client joined room for tenant 8
+2024-07-17 14:28:46,707 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:28', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:28:46,711 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:29:04,238 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:28', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:29:04,242 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:29:15,161 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:28', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:29:15,164 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:29:21,465 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:28', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:29:21,467 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:29:24,566 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:28', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:29:24,569 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:29:27,832 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:28', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:29:27,835 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:29:36,658 - INFO - Client disconnected
+2024-07-17 14:29:36,750 - INFO - Client connected
+2024-07-17 14:29:36,763 - INFO - Client joined room for tenant 8
+2024-07-17 14:29:38,123 - INFO - Client disconnected
+2024-07-17 14:29:38,215 - INFO - Client connected
+2024-07-17 14:29:38,233 - INFO - Client joined room for tenant 8
+2024-07-17 14:29:39,643 - INFO - Client disconnected
+2024-07-17 14:29:39,722 - INFO - Client connected
+2024-07-17 14:29:39,741 - INFO - Client joined room for tenant 8
+2024-07-17 14:29:41,016 - INFO - Client disconnected
+2024-07-17 14:29:41,089 - INFO - Client connected
+2024-07-17 14:29:41,113 - INFO - Client joined room for tenant 8
+2024-07-17 14:29:58,318 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:29', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:29:58,321 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:30:04,378 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:29', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:30:04,381 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:30:17,650 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:29', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:30:17,653 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:30:28,545 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:29', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:30:28,548 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:30:37,082 - INFO - Client disconnected
+2024-07-17 14:30:37,186 - INFO - Client connected
+2024-07-17 14:30:37,197 - INFO - Client joined room for tenant 8
+2024-07-17 14:30:38,747 - INFO - Client disconnected
+2024-07-17 14:30:38,840 - INFO - Client connected
+2024-07-17 14:30:38,855 - INFO - Client joined room for tenant 8
+2024-07-17 14:30:40,115 - INFO - Client disconnected
+2024-07-17 14:30:40,204 - INFO - Client connected
+2024-07-17 14:30:40,226 - INFO - Client joined room for tenant 8
+2024-07-17 14:30:41,670 - INFO - Client disconnected
+2024-07-17 14:30:41,765 - INFO - Client connected
+2024-07-17 14:30:41,785 - INFO - Client joined room for tenant 8
+2024-07-17 14:30:58,858 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:30', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:30:58,860 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:32:35,771 - INFO - Client disconnected
+2024-07-17 14:32:35,861 - INFO - Client connected
+2024-07-17 14:32:35,874 - INFO - Client joined room for tenant 8
+2024-07-17 14:32:37,255 - INFO - Client disconnected
+2024-07-17 14:32:37,341 - INFO - Client connected
+2024-07-17 14:32:37,356 - INFO - Client joined room for tenant 8
+2024-07-17 14:32:39,707 - INFO - Client disconnected
+2024-07-17 14:32:39,790 - INFO - Client connected
+2024-07-17 14:32:39,814 - INFO - Client joined room for tenant 8
+2024-07-17 14:32:41,033 - INFO - Client disconnected
+2024-07-17 14:32:41,106 - INFO - Client connected
+2024-07-17 14:32:41,119 - INFO - Client joined room for tenant 8
+2024-07-17 14:32:46,253 - INFO - Client disconnected
+2024-07-17 14:32:46,336 - INFO - Client connected
+2024-07-17 14:32:46,348 - INFO - Client joined room for tenant 10
+2024-07-17 14:32:53,078 - INFO - Client disconnected
+2024-07-17 14:32:53,182 - INFO - Client connected
+2024-07-17 14:32:53,196 - INFO - Client joined room for tenant 10
+2024-07-17 14:32:55,234 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:32', 'tenantid': 10, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:32:55,237 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:32:58,869 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:32', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:32:58,872 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:33:05,231 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:32', 'tenantid': 10, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:33:05,234 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:33:08,894 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:32', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:33:08,896 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:33:18,713 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:32', 'tenantid': 10, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:33:18,715 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:33:22,719 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:32', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:33:22,722 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:33:35,484 - INFO - Client disconnected
+2024-07-17 14:33:35,654 - INFO - Client connected
+2024-07-17 14:33:35,665 - INFO - Client joined room for tenant 8
+2024-07-17 14:33:36,974 - INFO - Client disconnected
+2024-07-17 14:33:37,063 - INFO - Client connected
+2024-07-17 14:33:37,083 - INFO - Client joined room for tenant 10
+2024-07-17 14:33:38,267 - INFO - Client disconnected
+2024-07-17 14:33:38,361 - INFO - Client connected
+2024-07-17 14:33:38,388 - INFO - Client joined room for tenant 8
+2024-07-17 14:33:39,673 - INFO - Client disconnected
+2024-07-17 14:33:39,761 - INFO - Client connected
+2024-07-17 14:33:39,779 - INFO - Client joined room for tenant 10
+2024-07-17 14:33:41,936 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:33', 'tenantid': 10, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:33:41,939 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:33:45,218 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:33', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:33:45,220 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:34:02,680 - INFO - Client disconnected
+2024-07-17 14:34:02,768 - INFO - Client connected
+2024-07-17 14:34:02,792 - INFO - Client joined room for tenant 8
+2024-07-17 14:34:04,263 - INFO - Client disconnected
+2024-07-17 14:34:04,420 - INFO - Client connected
+2024-07-17 14:34:04,438 - INFO - Client joined room for tenant 10
+2024-07-17 14:34:06,414 - INFO - Client disconnected
+2024-07-17 14:34:06,512 - INFO - Client connected
+2024-07-17 14:34:06,528 - INFO - Client joined room for tenant 8
+2024-07-17 14:34:07,805 - INFO - Client disconnected
+2024-07-17 14:34:07,901 - INFO - Client connected
+2024-07-17 14:34:07,916 - INFO - Client joined room for tenant 10
+2024-07-17 14:34:10,213 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:34', 'tenantid': 10, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:34:10,215 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:34:13,958 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:34', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:34:13,961 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:34:19,611 - INFO - Client disconnected
+2024-07-17 14:34:19,705 - INFO - Client connected
+2024-07-17 14:34:19,717 - INFO - Client joined room for tenant 8
+2024-07-17 14:34:21,480 - INFO - Client disconnected
+2024-07-17 14:34:21,571 - INFO - Client connected
+2024-07-17 14:34:21,589 - INFO - Client joined room for tenant 8
+2024-07-17 14:34:22,787 - INFO - Client disconnected
+2024-07-17 14:34:22,880 - INFO - Client connected
+2024-07-17 14:34:22,897 - INFO - Client joined room for tenant 10
+2024-07-17 14:34:24,124 - INFO - Client disconnected
+2024-07-17 14:34:24,212 - INFO - Client connected
+2024-07-17 14:34:24,235 - INFO - Client joined room for tenant 10
+2024-07-17 14:34:54,114 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:34', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:34:54,116 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:35:07,466 - INFO - Client disconnected
+2024-07-17 14:35:07,572 - INFO - Client connected
+2024-07-17 14:35:07,600 - INFO - Client joined room for tenant 8
+2024-07-17 14:35:26,210 - INFO - Client disconnected
+2024-07-17 14:35:26,297 - INFO - Client connected
+2024-07-17 14:35:26,314 - INFO - Client joined room for tenant 8
+2024-07-17 14:35:44,771 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:35', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:35:44,773 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:36:11,771 - INFO - Client disconnected
+2024-07-17 14:36:11,855 - INFO - Client connected
+2024-07-17 14:36:11,873 - INFO - Client joined room for tenant 8
+2024-07-17 14:37:38,952 - INFO - Client disconnected
+2024-07-17 14:37:39,041 - INFO - Client connected
+2024-07-17 14:37:39,053 - INFO - Client joined room for tenant 8
+2024-07-17 14:37:42,126 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:37', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:37:42,128 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:39:59,531 - INFO - Client disconnected
+2024-07-17 14:39:59,612 - INFO - Client connected
+2024-07-17 14:39:59,621 - INFO - Client joined room for tenant 8
+2024-07-17 14:40:01,579 - INFO - Client disconnected
+2024-07-17 14:40:01,686 - INFO - Client connected
+2024-07-17 14:40:01,700 - INFO - Client joined room for tenant 8
+2024-07-17 14:40:03,150 - INFO - Client disconnected
+2024-07-17 14:40:03,246 - INFO - Client connected
+2024-07-17 14:40:03,262 - INFO - Client joined room for tenant 10
+2024-07-17 14:40:04,634 - INFO - Client disconnected
+2024-07-17 14:40:04,731 - INFO - Client connected
+2024-07-17 14:40:04,746 - INFO - Client joined room for tenant 10
+2024-07-17 14:40:30,360 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:40', 'tenantid': 10, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:40:30,364 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:40:43,498 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:39', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:40:43,501 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:41:06,929 - INFO - Client disconnected
+2024-07-17 14:41:09,206 - INFO - Client connected
+2024-07-17 14:41:09,242 - INFO - Client joined room for tenant 8
+2024-07-17 14:41:12,550 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:41', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:41:12,553 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:42:02,962 - INFO - Client disconnected
+2024-07-17 14:42:03,052 - INFO - Client connected
+2024-07-17 14:42:03,061 - INFO - Client joined room for tenant 8
+2024-07-17 14:42:59,190 - INFO - Client disconnected
+2024-07-17 14:42:59,272 - INFO - Client connected
+2024-07-17 14:42:59,288 - INFO - Client joined room for tenant 8
+2024-07-17 14:50:24,173 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:42', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:50:24,182 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:50:32,314 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:40', 'tenantid': 10, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:50:32,317 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:50:35,890 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:40', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:50:35,893 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:50:41,191 - INFO - Client disconnected
+2024-07-17 14:50:41,350 - INFO - Client connected
+2024-07-17 14:50:41,363 - INFO - Client joined room for tenant 8
+2024-07-17 14:50:43,072 - INFO - Client disconnected
+2024-07-17 14:50:43,213 - INFO - Client connected
+2024-07-17 14:50:43,225 - INFO - Client joined room for tenant 10
+2024-07-17 14:50:44,637 - INFO - Client disconnected
+2024-07-17 14:50:44,733 - INFO - Client connected
+2024-07-17 14:50:44,747 - INFO - Client joined room for tenant 8
+2024-07-17 14:50:59,674 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 14:50', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 14:50:59,676 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 14:51:03,921 - INFO - Client disconnected
+2024-07-17 14:51:04,020 - INFO - Client connected
+2024-07-17 14:51:04,036 - INFO - Client joined room for tenant 8
+2024-07-17 15:04:40,006 - INFO - Client disconnected
+2024-07-17 15:04:40,152 - INFO - Client connected
+2024-07-17 15:04:40,162 - INFO - Client joined room for tenant 10
+2024-07-17 15:12:10,137 - INFO - Client disconnected
+2024-07-17 15:21:35,746 - INFO - Client disconnected
+2024-07-17 15:21:42,421 - INFO - Client disconnected
+2024-07-17 15:23:07,325 - INFO - Client connected
+2024-07-17 15:23:07,608 - INFO - Client disconnected
+2024-07-17 15:23:07,729 - INFO - Client connected
+2024-07-17 15:23:07,743 - INFO - Client joined room for tenant 8
+2024-07-17 15:24:39,817 - INFO - Client disconnected
+2024-07-17 15:24:39,922 - INFO - Client connected
+2024-07-17 15:24:39,936 - INFO - Client joined room for tenant 8
+2024-07-17 15:24:41,927 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 15:24', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 15:24:41,934 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 15:24:45,833 - INFO - Client disconnected
+2024-07-17 15:24:45,920 - INFO - Client connected
+2024-07-17 15:24:45,937 - INFO - Client joined room for tenant 8
+2024-07-17 15:24:54,071 - INFO - Client disconnected
+2024-07-17 15:24:54,193 - INFO - Client connected
+2024-07-17 15:24:54,208 - INFO - Client joined room for tenant 8
+2024-07-17 15:24:55,251 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 15:24', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 15:24:55,253 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 15:25:20,802 - INFO - Client disconnected
+2024-07-17 15:25:20,903 - INFO - Client connected
+2024-07-17 15:25:20,931 - INFO - Client joined room for tenant 8
+2024-07-17 15:25:39,873 - INFO - Client disconnected
+2024-07-17 15:25:39,968 - INFO - Client connected
+2024-07-17 15:25:39,983 - INFO - Client joined room for tenant 8
+2024-07-17 15:26:09,714 - INFO - Client disconnected
+2024-07-17 15:26:09,782 - INFO - Client connected
+2024-07-17 15:26:09,798 - INFO - Client joined room for tenant 8
+2024-07-17 15:30:19,818 - INFO - Client disconnected
+2024-07-17 15:30:19,888 - INFO - Client connected
+2024-07-17 15:30:19,906 - INFO - Client joined room for tenant 8
+2024-07-17 15:33:01,740 - INFO - Client disconnected
+2024-07-17 15:33:01,815 - INFO - Client connected
+2024-07-17 15:33:01,830 - INFO - Client joined room for tenant 8
+2024-07-17 15:36:01,188 - INFO - Client disconnected
+2024-07-17 15:36:01,261 - INFO - Client connected
+2024-07-17 15:36:01,276 - INFO - Client joined room for tenant 8
+2024-07-17 15:36:02,625 - INFO - Client disconnected
+2024-07-17 15:36:02,700 - INFO - Client connected
+2024-07-17 15:36:02,710 - INFO - Client joined room for tenant 8
+2024-07-17 15:36:07,968 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 15:36', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 15:36:07,970 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 15:36:18,560 - INFO - Client disconnected
+2024-07-17 15:36:18,610 - INFO - Client connected
+2024-07-17 15:36:18,624 - INFO - Client joined room for tenant 8
+2024-07-17 15:36:21,764 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 15:36', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 15:36:21,766 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 15:36:43,830 - INFO - Client disconnected
+2024-07-17 15:36:43,884 - INFO - Client connected
+2024-07-17 15:36:43,906 - INFO - Client joined room for tenant 8
+2024-07-17 18:07:28,816 - INFO - Client connected
+2024-07-17 18:07:28,848 - INFO - Client joined room for tenant 8
+2024-07-17 18:07:38,099 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:07', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:07:38,120 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:08:00,220 - INFO - Client disconnected
+2024-07-17 18:08:00,298 - INFO - Client connected
+2024-07-17 18:08:00,325 - INFO - Client joined room for tenant 8
+2024-07-17 18:08:04,080 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:08', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:08:04,082 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:08:37,992 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:08', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:08:37,994 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:08:44,618 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:08', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:08:44,622 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:08:55,392 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:08', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:08:55,394 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:09:00,436 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:08', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:09:00,439 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:09:05,670 - INFO - Client disconnected
+2024-07-17 18:09:05,760 - INFO - Client connected
+2024-07-17 18:09:05,775 - INFO - Client joined room for tenant 8
+2024-07-17 18:11:49,211 - INFO - Client disconnected
+2024-07-17 18:11:49,320 - INFO - Client connected
+2024-07-17 18:11:49,344 - INFO - Client joined room for tenant 8
+2024-07-17 18:11:57,057 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:11', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:11:57,062 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:12:00,557 - INFO - Client disconnected
+2024-07-17 18:12:00,654 - INFO - Client connected
+2024-07-17 18:12:00,672 - INFO - Client joined room for tenant 8
+2024-07-17 18:50:44,124 - INFO - Client connected
+2024-07-17 18:50:44,142 - INFO - Client joined room for tenant 8
+2024-07-17 18:50:59,851 - INFO - Client connected
+2024-07-17 18:51:08,362 - INFO - Client disconnected
+2024-07-17 18:51:08,585 - INFO - Client connected
+2024-07-17 18:51:08,604 - INFO - Client joined room for tenant 8
+2024-07-17 18:51:32,303 - INFO - Client connected
+2024-07-17 18:51:32,328 - INFO - Client joined room for tenant 10
+2024-07-17 18:51:35,400 - INFO - Client disconnected
+2024-07-17 18:51:35,487 - INFO - Client connected
+2024-07-17 18:51:35,505 - INFO - Client joined room for tenant 10
+2024-07-17 18:51:37,862 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:51', 'tenantid': 10, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:51:37,896 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:51:45,450 - INFO - Client disconnected
+2024-07-17 18:51:45,540 - INFO - Client connected
+2024-07-17 18:51:45,549 - INFO - Client joined room for tenant 8
+2024-07-17 18:52:19,688 - INFO - Client disconnected
+2024-07-17 18:52:19,793 - INFO - Client connected
+2024-07-17 18:52:19,808 - INFO - Client joined room for tenant 8
+2024-07-17 18:52:21,271 - INFO - Client disconnected
+2024-07-17 18:52:21,346 - INFO - Client connected
+2024-07-17 18:52:21,359 - INFO - Client joined room for tenant 8
+2024-07-17 18:52:29,986 - INFO - Client connected
+2024-07-17 18:52:30,015 - INFO - Client joined room for tenant 8
+2024-07-17 18:52:31,520 - INFO - Client disconnected
+2024-07-17 18:52:31,598 - INFO - Client connected
+2024-07-17 18:52:31,620 - INFO - Client joined room for tenant 8
+2024-07-17 18:52:33,247 - INFO - Client disconnected
+2024-07-17 18:52:33,327 - INFO - Client connected
+2024-07-17 18:52:33,345 - INFO - Client joined room for tenant 8
+2024-07-17 18:52:35,085 - INFO - Client disconnected
+2024-07-17 18:52:35,179 - INFO - Client connected
+2024-07-17 18:52:35,197 - INFO - Client joined room for tenant 8
+2024-07-17 18:52:36,642 - INFO - Client disconnected
+2024-07-17 18:52:36,727 - INFO - Client connected
+2024-07-17 18:52:36,747 - INFO - Client joined room for tenant 8
+2024-07-17 18:52:38,695 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:52', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:52:38,699 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:52:42,396 - INFO - Client disconnected
+2024-07-17 18:52:42,472 - INFO - Client connected
+2024-07-17 18:52:42,498 - INFO - Client joined room for tenant 8
+2024-07-17 18:54:35,830 - INFO - Client disconnected
+2024-07-17 18:54:35,917 - INFO - Client connected
+2024-07-17 18:54:35,929 - INFO - Client joined room for tenant 10
+2024-07-17 18:55:17,961 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:52', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:55:17,966 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:55:21,036 - INFO - Client disconnected
+2024-07-17 18:55:21,123 - INFO - Client connected
+2024-07-17 18:55:21,139 - INFO - Client joined room for tenant 8
+2024-07-17 18:55:41,369 - INFO - Client disconnected
+2024-07-17 18:55:41,459 - INFO - Client connected
+2024-07-17 18:55:41,474 - INFO - Client joined room for tenant 10
+2024-07-17 18:55:44,253 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:55', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:55:44,257 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:55:47,485 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:54', 'tenantid': 10, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 18:55:47,488 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 18:55:53,953 - INFO - Client disconnected
+2024-07-17 18:55:54,054 - INFO - Client connected
+2024-07-17 18:55:54,072 - INFO - Client joined room for tenant 8
+2024-07-17 18:55:57,190 - INFO - Client disconnected
+2024-07-17 18:55:57,273 - INFO - Client connected
+2024-07-17 18:55:57,292 - INFO - Client joined room for tenant 10
+2024-07-17 18:55:58,929 - INFO - Client disconnected
+2024-07-17 18:55:59,018 - INFO - Client connected
+2024-07-17 18:55:59,031 - INFO - Client joined room for tenant 8
+2024-07-17 19:05:36,889 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-17 18:52', 'tenantid': 8, 'officeid': 12, 'username': 'ARUN'}
+2024-07-17 19:05:36,891 - INFO - Data Sent: ARUN - new record inserted
+2024-07-17 19:05:40,466 - INFO - Client disconnected
+2024-07-17 19:05:40,555 - INFO - Client connected
+2024-07-17 19:05:40,572 - INFO - Client joined room for tenant 8
+2024-07-17 19:09:25,790 - INFO - Client disconnected
+2024-07-17 19:21:41,636 - INFO - Client disconnected
+2024-07-17 19:21:43,169 - INFO - Client disconnected
+2024-07-17 19:21:44,489 - INFO - Client disconnected
+2024-07-20 11:39:02,542 - INFO - Client connected
+2024-07-20 11:39:02,567 - INFO - Client joined room for tenant 8
+2024-07-20 11:43:06,673 - INFO - Client disconnected
+2024-07-20 11:43:08,164 - INFO - Client connected
+2024-07-20 11:43:08,182 - INFO - Client joined room for tenant 8
+2024-07-20 11:43:20,183 - INFO - Received data: {'tableName': 'tell me about india', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:43', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:43:20,454 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:46:08,889 - INFO - Client connected
+2024-07-20 11:46:15,409 - INFO - Client disconnected
+2024-07-20 11:46:17,121 - INFO - Client connected
+2024-07-20 11:46:17,141 - INFO - Client joined room for tenant 8
+2024-07-20 11:46:20,883 - INFO - Received data: {'tableName': 'tell me about india', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:46', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:46:20,919 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:47:58,896 - INFO - Client connected
+2024-07-20 11:48:05,459 - INFO - Client disconnected
+2024-07-20 11:48:05,727 - INFO - Client connected
+2024-07-20 11:48:05,784 - INFO - Client joined room for tenant 8
+2024-07-20 11:48:11,967 - INFO - Received data: {'tableName': 'tell me about india', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:48', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:48:11,997 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:48:47,273 - INFO - Client disconnected
+2024-07-20 11:48:47,792 - INFO - Client connected
+2024-07-20 11:48:47,816 - INFO - Client joined room for tenant 8
+2024-07-20 11:48:51,921 - INFO - Received data: {'tableName': 'tell me about india', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:48', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:48:51,925 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:50:21,143 - INFO - Client disconnected
+2024-07-20 11:50:22,814 - INFO - Client connected
+2024-07-20 11:50:22,842 - INFO - Client joined room for tenant 8
+2024-07-20 11:50:24,722 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:50', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:50:24,729 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:51:52,172 - INFO - Client disconnected
+2024-07-20 11:51:54,265 - INFO - Client connected
+2024-07-20 11:51:54,284 - INFO - Client joined room for tenant 8
+2024-07-20 11:51:57,883 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:51', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:51:57,889 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:53:26,954 - INFO - Client disconnected
+2024-07-20 11:53:27,251 - INFO - Client connected
+2024-07-20 11:53:27,274 - INFO - Client joined room for tenant 8
+2024-07-20 11:53:27,876 - INFO - Client disconnected
+2024-07-20 11:53:28,221 - INFO - Client connected
+2024-07-20 11:53:28,243 - INFO - Client joined room for tenant 8
+2024-07-20 11:53:30,527 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:53', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:53:30,532 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:53:38,853 - INFO - Client disconnected
+2024-07-20 11:53:39,312 - INFO - Client connected
+2024-07-20 11:53:39,328 - INFO - Client joined room for tenant 8
+2024-07-20 11:53:41,611 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:53', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:53:41,615 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:53:48,921 - INFO - Client disconnected
+2024-07-20 11:53:49,312 - INFO - Client connected
+2024-07-20 11:53:49,330 - INFO - Client joined room for tenant 8
+2024-07-20 11:53:53,081 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:53', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:53:53,084 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:54:14,532 - INFO - Client disconnected
+2024-07-20 11:54:14,943 - INFO - Client connected
+2024-07-20 11:54:14,963 - INFO - Client joined room for tenant 8
+2024-07-20 11:54:17,451 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:54', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:54:17,456 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:54:50,621 - INFO - Client disconnected
+2024-07-20 11:54:50,984 - INFO - Client connected
+2024-07-20 11:54:51,001 - INFO - Client joined room for tenant 8
+2024-07-20 11:54:52,987 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:54', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:54:52,990 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:55:04,671 - INFO - Client disconnected
+2024-07-20 11:55:05,102 - INFO - Client connected
+2024-07-20 11:55:05,129 - INFO - Client joined room for tenant 8
+2024-07-20 11:55:07,592 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:55', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:55:07,597 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 11:55:50,945 - INFO - Client disconnected
+2024-07-20 11:55:51,276 - INFO - Client connected
+2024-07-20 11:55:51,297 - INFO - Client joined room for tenant 8
+2024-07-20 11:55:54,019 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 11:55', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 11:55:54,023 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 12:34:33,916 - INFO - Client connected
+2024-07-20 12:34:52,568 - INFO - Client disconnected
+2024-07-20 12:35:24,603 - INFO - Client connected
+2024-07-20 12:35:24,636 - INFO - Client joined room for tenant 8
+2024-07-20 12:35:27,267 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 12:35', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 12:35:27,447 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 12:36:01,649 - INFO - Client connected
+2024-07-20 12:36:10,456 - INFO - Client connected
+2024-07-20 12:36:18,313 - INFO - Client disconnected
+2024-07-20 12:36:18,689 - INFO - Client connected
+2024-07-20 12:36:18,710 - INFO - Client joined room for tenant 8
+2024-07-20 12:36:20,432 - INFO - Client disconnected
+2024-07-20 12:36:20,768 - INFO - Client connected
+2024-07-20 12:36:21,719 - INFO - Client disconnected
+2024-07-20 12:36:21,987 - INFO - Client connected
+2024-07-20 12:36:29,015 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 12:36', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 12:36:29,024 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 12:37:01,915 - INFO - Client disconnected
+2024-07-20 12:37:02,159 - INFO - Client connected
+2024-07-20 12:37:02,169 - INFO - Client joined room for tenant 8
+2024-07-20 12:37:07,327 - INFO - Client disconnected
+2024-07-20 12:37:07,777 - INFO - Client connected
+2024-07-20 12:37:07,794 - INFO - Client joined room for tenant 8
+2024-07-20 12:37:09,784 - INFO - Client disconnected
+2024-07-20 12:37:10,023 - INFO - Client connected
+2024-07-20 12:37:10,038 - INFO - Client joined room for tenant 8
+2024-07-20 12:37:13,968 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 12:37', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 12:37:13,974 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 12:37:22,205 - INFO - Client disconnected
+2024-07-20 12:37:22,627 - INFO - Client connected
+2024-07-20 12:37:22,643 - INFO - Client joined room for tenant 8
+2024-07-20 12:37:25,641 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'new record inserted', 'current_date': '2024-07-20 12:37', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 12:37:25,647 - INFO - Data Sent: ARUN - new record inserted
+2024-07-20 12:39:53,853 - INFO - Client disconnected
+2024-07-20 12:39:55,283 - INFO - Client connected
+2024-07-20 12:39:55,311 - INFO - Client joined room for tenant 8
+2024-07-20 12:39:58,261 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br>what is the capital of india', 'current_date': '2024-07-20 12:39', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 12:39:58,267 - INFO - Data Sent: ARUN - inserted a new record <br>what is the capital of india
+2024-07-20 12:41:34,353 - INFO - Client disconnected
+2024-07-20 12:41:35,553 - INFO - Client connected
+2024-07-20 12:41:35,567 - INFO - Client joined room for tenant 8
+2024-07-20 12:41:37,432 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br>what is ocr', 'current_date': '2024-07-20 12:41', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 12:41:37,439 - INFO - Data Sent: ARUN - inserted a new record <br>what is ocr
+2024-07-20 12:43:03,576 - INFO - Client disconnected
+2024-07-20 12:43:03,880 - INFO - Client connected
+2024-07-20 12:43:03,898 - INFO - Client joined room for tenant 8
+2024-07-20 12:43:13,456 - INFO - Client disconnected
+2024-07-20 12:43:13,769 - INFO - Client connected
+2024-07-20 12:43:13,788 - INFO - Client joined room for tenant 8
+2024-07-20 12:43:18,310 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br>what is the capital of india', 'current_date': '2024-07-20 12:43', 'tenantid': '8', 'officeid': '12', 'username': 'ARUN'}
+2024-07-20 12:43:18,321 - INFO - Data Sent: ARUN - inserted a new record <br>what is the capital of india
+2024-07-20 12:45:51,214 - INFO - Client disconnected
+2024-07-20 12:45:52,725 - INFO - Client connected
+2024-07-20 12:45:52,744 - INFO - Client joined room for tenant 8
+2024-07-20 12:45:54,818 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br>what is ocr', 'current_date': '2024-07-20 12:45', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN</span>'}
+2024-07-20 12:45:54,835 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN</span> - inserted a new record <br>what is ocr
+2024-07-20 12:47:13,077 - INFO - Client disconnected
+2024-07-20 12:47:14,647 - INFO - Client connected
+2024-07-20 12:47:14,666 - INFO - Client joined room for tenant 8
+2024-07-20 12:47:17,726 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br>what is the capital of india', 'current_date': '2024-07-20 12:47', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-20 12:47:17,733 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br>what is the capital of india
+2024-07-20 12:47:35,352 - INFO - Client disconnected
+2024-07-20 12:47:35,704 - INFO - Client connected
+2024-07-20 12:47:35,721 - INFO - Client joined room for tenant 8
+2024-07-20 12:48:50,660 - INFO - Client disconnected
+2024-07-20 12:48:52,242 - INFO - Client connected
+2024-07-20 12:48:52,261 - INFO - Client joined room for tenant 8
+2024-07-20 12:48:53,986 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> <b>Record: </b>what is ocr', 'current_date': '2024-07-20 12:48', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-20 12:48:53,997 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> <b>Record: </b>what is ocr
+2024-07-20 12:49:31,426 - INFO - Client disconnected
+2024-07-20 12:49:31,995 - INFO - Client connected
+2024-07-20 12:49:32,005 - INFO - Client joined room for tenant 8
+2024-07-20 12:49:34,224 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> <b>Record: </b>what is ocr', 'current_date': '2024-07-20 12:49', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-20 12:49:34,231 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> <b>Record: </b>what is ocr
+2024-07-20 12:49:51,296 - INFO - Client disconnected
+2024-07-20 12:49:52,750 - INFO - Client connected
+2024-07-20 12:49:52,761 - INFO - Client joined room for tenant 8
+2024-07-20 12:49:54,868 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> Record:tell me about india', 'current_date': '2024-07-20 12:49', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-20 12:49:54,876 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> Record:tell me about india
+2024-07-20 12:50:33,330 - INFO - Client disconnected
+2024-07-20 12:50:34,965 - INFO - Client connected
+2024-07-20 12:50:34,980 - INFO - Client joined room for tenant 8
+2024-07-20 12:50:37,616 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "what is ocr"', 'current_date': '2024-07-20 12:50', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-20 12:50:37,622 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "what is ocr"
+2024-07-20 12:51:02,076 - INFO - Client disconnected
+2024-07-20 12:51:02,409 - INFO - Client connected
+2024-07-20 12:51:02,428 - INFO - Client joined room for tenant 8
+2024-07-20 12:51:03,291 - INFO - Client disconnected
+2024-07-20 12:51:03,701 - INFO - Client connected
+2024-07-20 12:51:03,718 - INFO - Client joined room for tenant 8
+2024-07-20 12:51:04,893 - INFO - Client disconnected
+2024-07-20 12:51:05,210 - INFO - Client connected
+2024-07-20 12:51:05,232 - INFO - Client joined room for tenant 8
+2024-07-20 12:51:07,820 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "tell me about india"', 'current_date': '2024-07-20 12:51', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-20 12:51:07,828 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "tell me about india"
+2024-07-20 12:52:16,960 - INFO - Client disconnected
+2024-07-20 12:52:17,318 - INFO - Client connected
+2024-07-20 12:52:17,336 - INFO - Client joined room for tenant 8
+2024-07-20 12:52:21,957 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "tell me about india"', 'current_date': '2024-07-20 12:52', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-20 12:52:21,967 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "tell me about india"
+2024-07-20 12:52:45,258 - INFO - Client disconnected
+2024-07-20 12:52:45,567 - INFO - Client connected
+2024-07-20 12:52:45,593 - INFO - Client joined room for tenant 8
+2024-07-20 13:23:30,813 - INFO - Client disconnected
+2024-07-20 13:53:18,833 - INFO - Client disconnected
+2024-07-20 13:53:28,839 - INFO - Client disconnected
+2024-07-24 16:49:52,338 - INFO - Client connected
+2024-07-24 16:49:52,359 - INFO - Client joined room for tenant 8
+2024-07-24 16:49:56,796 - INFO - Client disconnected
+2024-07-24 16:49:56,998 - INFO - Client connected
+2024-07-24 16:49:57,012 - INFO - Client joined room for tenant 8
+2024-07-24 16:50:14,735 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "PER MONTH SALARY 24500 WHAT IS THE ANUAL INCOME"', 'current_date': '2024-07-24 16:49', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-24 16:50:15,059 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "PER MONTH SALARY 24500 WHAT IS THE ANUAL INCOME"
+2024-07-24 16:50:32,909 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "thank you"', 'current_date': '2024-07-24 16:49', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-24 16:50:32,921 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "thank you"
+2024-07-24 16:50:40,052 - INFO - Client disconnected
+2024-07-24 16:50:40,263 - INFO - Client connected
+2024-07-24 16:50:40,278 - INFO - Client joined room for tenant 8
+2024-07-24 16:50:43,119 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "tell me about india"', 'current_date': '2024-07-24 16:50', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-24 16:50:43,129 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "tell me about india"
+2024-07-24 16:51:03,269 - INFO - Client disconnected
+2024-07-24 16:51:03,494 - INFO - Client connected
+2024-07-24 16:51:03,505 - INFO - Client joined room for tenant 8
+2024-07-24 16:53:22,497 - INFO - Client connected
+2024-07-24 16:53:34,124 - INFO - Client disconnected
+2024-07-24 16:53:34,457 - INFO - Client connected
+2024-07-24 16:53:34,473 - INFO - Client joined room for tenant 8
+2024-07-24 16:53:51,767 - INFO - Client disconnected
+2024-07-24 16:53:51,974 - INFO - Client connected
+2024-07-24 16:53:51,986 - INFO - Client joined room for tenant 8
+2024-07-24 16:53:56,755 - INFO - Client connected
+2024-07-24 16:53:56,775 - INFO - Client joined room for tenant 8
+2024-07-24 16:54:05,544 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "what is the capital of india"', 'current_date': '2024-07-24 16:53', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-24 16:54:05,585 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "what is the capital of india"
+2024-07-24 16:54:14,712 - INFO - Client disconnected
+2024-07-24 16:54:14,950 - INFO - Client connected
+2024-07-24 16:54:14,957 - INFO - Client joined room for tenant 8
+2024-07-24 16:54:18,149 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "tell me about india"', 'current_date': '2024-07-24 16:53', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-24 16:54:18,156 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "tell me about india"
+2024-07-24 16:54:38,481 - INFO - Client disconnected
+2024-07-24 16:54:38,682 - INFO - Client connected
+2024-07-24 16:54:38,700 - INFO - Client joined room for tenant 8
+2024-07-24 16:54:43,796 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "tell me about india"', 'current_date': '2024-07-24 16:53', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-24 16:54:43,801 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "tell me about india"
+2024-07-24 16:55:03,723 - INFO - Client disconnected
+2024-07-24 16:55:03,911 - INFO - Client connected
+2024-07-24 16:55:03,919 - INFO - Client joined room for tenant 8
+2024-07-24 16:55:06,844 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "what is ocr"', 'current_date': '2024-07-24 16:54', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-24 16:55:06,851 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "what is ocr"
+2024-07-24 17:26:21,577 - INFO - Client disconnected
+2024-07-24 17:26:28,267 - INFO - Client disconnected
+2024-07-24 17:26:34,943 - INFO - Client disconnected
+2024-07-24 18:19:54,205 - INFO - Client connected
+2024-07-24 18:19:54,408 - INFO - Client connected
+2024-07-24 18:38:56,846 - INFO - Client disconnected
+2024-07-24 18:39:06,040 - INFO - Client disconnected
+2024-07-26 11:56:36,517 - INFO - Client connected
+2024-07-26 11:56:36,530 - INFO - Client joined room for tenant 8
+2024-07-26 11:56:48,471 - INFO - Client disconnected
+2024-07-26 11:56:48,820 - INFO - Client connected
+2024-07-26 11:56:48,840 - INFO - Client joined room for tenant 8
+2024-07-26 11:56:58,247 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "what is the capital of india"', 'current_date': '2024-07-26 11:56', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-26 11:56:58,546 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "what is the capital of india"
+2024-07-26 11:57:05,329 - INFO - Client disconnected
+2024-07-26 11:57:05,661 - INFO - Client connected
+2024-07-26 11:57:05,677 - INFO - Client joined room for tenant 8
+2024-07-26 11:57:29,142 - INFO - Client disconnected
+2024-07-26 11:57:29,496 - INFO - Client connected
+2024-07-26 11:57:29,519 - INFO - Client joined room for tenant 8
+2024-07-26 11:57:42,303 - INFO - Client connected
+2024-07-26 11:57:50,820 - INFO - Client disconnected
+2024-07-26 11:57:51,062 - INFO - Client connected
+2024-07-26 11:57:51,074 - INFO - Client joined room for tenant 8
+2024-07-26 11:57:55,133 - INFO - Client connected
+2024-07-26 11:57:55,144 - INFO - Client joined room for tenant 8
+2024-07-26 11:58:03,275 - INFO - Client disconnected
+2024-07-26 11:58:03,667 - INFO - Client connected
+2024-07-26 11:58:03,678 - INFO - Client joined room for tenant 8
+2024-07-26 11:58:04,479 - INFO - Client disconnected
+2024-07-26 11:58:05,001 - INFO - Client connected
+2024-07-26 11:58:05,019 - INFO - Client joined room for tenant 8
+2024-07-26 11:58:55,543 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "tell me about india"', 'current_date': '2024-07-26 11:57', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-26 11:58:55,559 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "tell me about india"
+2024-07-26 11:59:57,550 - INFO - Client disconnected
+2024-07-26 11:59:57,962 - INFO - Client connected
+2024-07-26 11:59:57,979 - INFO - Client joined room for tenant 8
+2024-07-26 12:00:01,893 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "what is the capital of india"', 'current_date': '2024-07-26 11:59', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-26 12:00:01,904 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "what is the capital of india"
+2024-07-26 12:00:08,385 - INFO - Client disconnected
+2024-07-26 12:00:09,872 - INFO - Client disconnected
+2024-07-26 12:00:11,271 - INFO - Client disconnected
+2024-07-26 12:02:21,976 - INFO - Client connected
+2024-07-26 12:02:21,997 - INFO - Client joined room for tenant 8
+2024-07-26 12:02:24,466 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "what is ocr"', 'current_date': '2024-07-26 12:02', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-26 12:02:24,470 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "what is ocr"
+2024-07-27 17:41:25,425 - INFO - Client connected
+2024-07-27 17:41:25,449 - INFO - Client joined room for tenant 8
+2024-07-27 17:41:27,836 - INFO - Client disconnected
+2024-07-27 17:41:28,046 - INFO - Client connected
+2024-07-27 17:41:28,060 - INFO - Client joined room for tenant 8
+2024-07-27 17:41:32,626 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "what is the capital of india"', 'current_date': '2024-07-27 17:41', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:41:32,682 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "what is the capital of india"
+2024-07-27 17:41:56,099 - INFO - Client connected
+2024-07-27 17:42:03,608 - INFO - Client disconnected
+2024-07-27 17:42:03,971 - INFO - Client connected
+2024-07-27 17:42:04,006 - INFO - Client joined room for tenant 8
+2024-07-27 17:42:18,471 - INFO - Client disconnected
+2024-07-27 17:42:18,717 - INFO - Client connected
+2024-07-27 17:42:18,731 - INFO - Client joined room for tenant 8
+2024-07-27 17:42:24,073 - INFO - Client disconnected
+2024-07-27 17:42:24,335 - INFO - Client connected
+2024-07-27 17:42:24,347 - INFO - Client joined room for tenant 8
+2024-07-27 17:42:27,751 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "what is the capital of india"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:42:27,760 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "what is the capital of india"
+2024-07-27 17:42:42,534 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "where is it"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:42:42,539 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "where is it"
+2024-07-27 17:42:54,918 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "how can i go there"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:42:54,924 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "how can i go there"
+2024-07-27 17:43:16,718 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "where are you from "', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:43:16,721 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "where are you from "
+2024-07-27 17:43:28,873 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "who developed you"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:43:28,878 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "who developed you"
+2024-07-27 17:44:10,589 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "how can i reach you"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:44:10,592 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "how can i reach you"
+2024-07-27 17:44:20,794 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "can i use your api"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:44:20,799 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "can i use your api"
+2024-07-27 17:44:38,276 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "give me a code to use your api"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:44:38,279 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "give me a code to use your api"
+2024-07-27 17:45:20,596 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "how can i use it"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:45:20,602 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "how can i use it"
+2024-07-27 17:45:35,593 - INFO - Client connected
+2024-07-27 17:45:35,620 - INFO - Client joined room for tenant 8
+2024-07-27 17:45:48,658 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "sample code"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:45:48,663 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "sample code"
+2024-07-27 17:46:37,416 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "hi"', 'current_date': '2024-07-27 17:42', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:46:37,423 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "hi"
+2024-07-27 17:46:42,316 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "hello"', 'current_date': '2024-07-27 17:45', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:46:42,321 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "hello"
+2024-07-27 17:47:07,858 - INFO - Client disconnected
+2024-07-27 17:47:08,366 - INFO - Client connected
+2024-07-27 17:47:08,381 - INFO - Client joined room for tenant 8
+2024-07-27 17:47:12,367 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "helllo"', 'current_date': '2024-07-27 17:47', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">VICKY&nbsp;</span>'}
+2024-07-27 17:47:12,373 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">VICKY&nbsp;</span> - inserted a new record <br> "helllo"
+2024-07-27 17:47:43,934 - INFO - Client disconnected
+2024-07-27 17:47:44,182 - INFO - Client connected
+2024-07-27 17:47:44,197 - INFO - Client joined room for tenant 8
+2024-07-27 17:47:45,223 - INFO - Client disconnected
+2024-07-27 17:47:45,452 - INFO - Client connected
+2024-07-27 17:47:45,467 - INFO - Client joined room for tenant 8
+2024-07-27 17:47:46,785 - INFO - Client disconnected
+2024-07-27 17:47:47,029 - INFO - Client connected
+2024-07-27 17:47:47,046 - INFO - Client joined room for tenant 8
+2024-07-27 17:47:50,647 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "tell me about india"', 'current_date': '2024-07-27 17:47', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:47:50,653 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "tell me about india"
+2024-07-27 17:49:23,909 - INFO - Client disconnected
+2024-07-27 17:49:24,136 - INFO - Client connected
+2024-07-27 17:49:24,151 - INFO - Client joined room for tenant 8
+2024-07-27 17:52:42,161 - INFO - Client disconnected
+2024-07-27 17:52:48,141 - INFO - Client connected
+2024-07-27 17:52:48,158 - INFO - Client joined room for tenant 8
+2024-07-27 17:53:42,240 - INFO - Client disconnected
+2024-07-27 17:53:43,194 - INFO - Client connected
+2024-07-27 17:53:43,213 - INFO - Client joined room for tenant 8
+2024-07-27 17:54:57,945 - INFO - Received data: {'tableName': 'GENERAL_QS_TBL', 'type': 'INSERT', 'message': 'inserted a new record <br> "tell me about india"', 'current_date': '2024-07-27 17:49', 'tenantid': '8', 'officeid': '12', 'username': '<span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span>'}
+2024-07-27 17:54:57,950 - INFO - Data Sent: <span style="color: #007bff; font-weight: bold;">ARUN&nbsp;</span> - inserted a new record <br> "tell me about india"
+2024-07-27 17:55:14,739 - INFO - Client disconnected
+2024-07-27 17:55:16,175 - INFO - Client disconnected
+2024-07-27 17:55:18,116 - INFO - Client disconnected

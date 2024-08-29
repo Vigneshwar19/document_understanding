@@ -1,0 +1,17 @@
+[
+    {
+        "tag": "Accounts",
+        "patterns": ["buying", "selling", "payments", "receipts"],
+        "responses": ["I apologize for the inconvenience. Our technical team has been notified about the issue. Please try again later or contact our support team for immediate assistance."]
+    },
+    {
+        "tag": "Search Engine",
+        "patterns": ["buying", "selling", "payments", "receipts"],
+        "responses": ["I apologize for the inconvenience. Our technical team has been notified about the issue. Please try again later or contact our support team for immediate assistance."]
+    },
+    {
+        "tag": "AI - Powered Pdf / Image processing",
+        "patterns": ["buying", "selling", "payments", "receipts"],
+        "responses": ["I apologize for the inconvenience. Our technical team has been notified about the issue. Please try again later or contact our support team for immediate assistance."]
+    }
+]

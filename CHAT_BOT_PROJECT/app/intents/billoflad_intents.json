@@ -1,0 +1,318 @@
+[
+    {
+        "tag": "lastmonthbilloflad",
+        "patterns": [
+            "how many billoflads added in the last month",
+            "how many billoflads from last month",
+            "last month billoflads",
+            "billoflads in last month",
+            "number of billoflads from last month",
+            "count billoflads from last month",
+            "total billoflads from last month",
+            "quantity of billoflads from last month",
+            "billoflads total from last month",
+            "number of billoflads in last month",
+            "count billoflads in last month",
+            "total billoflads in last month",
+            "quantity of billoflads in last month",
+            "billoflads total in last month"
+        ],        
+        "responses": ["The number of billoflads added in the last month is lastmonthbilloflad."]
+    },
+    {
+        "tag": "lastyearbilloflad",
+        "patterns": [
+            "how many billoflads added in the last year",
+            "how many billoflads from last year",
+            "last year billoflads",
+            "billoflads in last year",
+            "number of billoflads from last year",
+            "count billoflads from last year",
+            "total billoflads from last year",
+            "quantity of billoflads from last year",
+            "billoflads total from last year",
+            "number of billoflads in last year",
+            "count billoflads in last year",
+            "total billoflads in last year",
+            "quantity of billoflads in last year",
+            "billoflads total in last year"
+        ],        
+        "responses": ["The number of billoflads added in the last year is lastyearbilloflad."]
+    },
+    {
+        "tag": "search_request",
+        "patterns": [ "I want to find ", "I wish to find ", "I need to find ", "I'm looking to find ", "I'm searching for ", "I'm interested in finding ", "Can you help me find ", "Can you assist me in finding ", "Please find ", "Please help me find ", "Seeking to find ", "Looking for ", "Search for ", "Find by ", "Search by ", "Can you find " ],
+        "responses": ["Sure, what are you looking for?"]
+    },            
+    {
+        "tag": "namebilloflad",
+        "patterns": [
+            "how many billoflads from",
+            "billoflads from",
+            "billoflads frm",
+            "number of billoflads from",
+            "count billoflads from",
+            "total billoflads from",
+            "quantity of billoflads from",
+            "billoflads total from",
+            "number of billoflads by",
+            "count billoflads by",
+            "total billoflads by",
+            "quantity of billoflads by",
+            "billoflads total by",
+            "how many billoflads",
+            "how many total billoflads",
+            "how many billoflads total",
+            "how many billoflads in total",
+            "how many billoflads last month"
+        ],                
+        "responses": ["The number of billoflads from name is namebilloflad."]
+    },
+    {
+        "tag": "lastweekbilloflad",
+        "patterns": [
+            "last week billoflads",
+            "billoflads for the last week",
+            "number of billoflads last week",
+            "count billoflads last week",
+            "total billoflads last week",
+            "quantity of billoflads last week",
+            "billoflads total last week",
+            "billoflads from last week",
+            "number of billoflads from last week",
+            "count billoflads from last week",
+            "total billoflads from last week",
+            "quantity of billoflads from last week",
+            "billoflads total from last week"
+        ],        
+        "responses": ["The number of billoflads added last week is lastweekbilloflad."]
+    },
+    {
+        "tag": "januarybilloflad",
+        "patterns": [
+            "billoflads for january",
+            "january billoflads",
+            "number of billoflads in january",
+            "count billoflads in january",
+            "total billoflads in january",
+            "quantity of billoflads in january",
+            "billoflads total in january",
+            "billoflads from january",
+            "number of billoflads from january",
+            "count billoflads from january",
+            "total billoflads from january",
+            "quantity of billoflads from january",
+            "billoflads total from january"
+        ],        
+        "responses": ["The number of billoflads for january is januarybilloflad."]
+    },
+    {
+        "tag": "februarybilloflad",
+        "patterns": [
+            "billoflads for february",
+            "february billoflads",
+            "number of billoflads in february",
+            "count billoflads in february",
+            "total billoflads in february",
+            "quantity of billoflads in february",
+            "billoflads total in february",
+            "billoflads from february",
+            "number of billoflads from february",
+            "count billoflads from february",
+            "total billoflads from february",
+            "quantity of billoflads from february",
+            "billoflads total from february"
+        ],
+        "responses": ["The number of billoflads for february is februarybilloflad."]
+    },
+    {
+        "tag": "marchbilloflad",
+        "patterns": [
+            "billoflads for march",
+            "march billoflads",
+            "number of billoflads in march",
+            "count billoflads in march",
+            "total billoflads in march",
+            "quantity of billoflads in march",
+            "billoflads total in march",
+            "billoflads from march",
+            "number of billoflads from march",
+            "count billoflads from march",
+            "total billoflads from march",
+            "quantity of billoflads from march",
+            "billoflads total from march"
+        ],
+        "responses": ["The number of billoflads for march is marchbilloflad."]
+    },
+    {
+        "tag": "aprilbilloflad",
+        "patterns": [
+            "billoflads for april",
+            "april billoflads",
+            "number of billoflads in april",
+            "count billoflads in april",
+            "total billoflads in april",
+            "quantity of billoflads in april",
+            "billoflads total in april",
+            "billoflads from april",
+            "number of billoflads from april",
+            "count billoflads from april",
+            "total billoflads from april",
+            "quantity of billoflads from april",
+            "billoflads total from april"
+        ],
+        "responses": ["The number of billoflads for april is aprilbilloflad."]
+    },
+    {
+        "tag": "maybilloflad",
+        "patterns": [
+            "billoflads for may",
+            "may billoflads",
+            "number of billoflads in may",
+            "count billoflads in may",
+            "total billoflads in may",
+            "quantity of billoflads in may",
+            "billoflads total in may",
+            "billoflads from may",
+            "number of billoflads from may",
+            "count billoflads from may",
+            "total billoflads from may",
+            "quantity of billoflads from may",
+            "billoflads total from may"
+        ],
+        "responses": ["The number of billoflads for may is maybilloflad."]
+    },
+    {
+        "tag": "junebilloflad",
+        "patterns": [
+            "billoflads for june",
+            "june billoflads",
+            "number of billoflads in june",
+            "count billoflads in june",
+            "total billoflads in june",
+            "quantity of billoflads in june",
+            "billoflads total in june",
+            "billoflads from june",
+            "number of billoflads from june",
+            "count billoflads from june",
+            "total billoflads from june",
+            "quantity of billoflads from june",
+            "billoflads total from june"
+        ],
+        "responses": ["The number of billoflads for june is junebilloflad."]
+    },
+    {
+        "tag": "julybilloflad",
+        "patterns": [
+            "billoflads for july",
+            "july billoflads",
+            "number of billoflads in july",
+            "count billoflads in july",
+            "total billoflads in july",
+            "quantity of billoflads in july",
+            "billoflads total in july",
+            "billoflads from july",
+            "number of billoflads from july",
+            "count billoflads from july",
+            "total billoflads from july",
+            "quantity of billoflads from july",
+            "billoflads total from july"
+        ],
+        "responses": ["The number of billoflads for july is julybilloflad."]
+    },
+    {
+        "tag": "augustbilloflad",
+        "patterns": [
+            "billoflads for august",
+            "august billoflads",
+            "number of billoflads in august",
+            "count billoflads in august",
+            "total billoflads in august",
+            "quantity of billoflads in august",
+            "billoflads total in august",
+            "billoflads from august",
+            "number of billoflads from august",
+            "count billoflads from august",
+            "total billoflads from august",
+            "quantity of billoflads from august",
+            "billoflads total from august"
+        ],
+        "responses": ["The number of billoflads for august is augustbilloflad."]
+    },
+    {
+        "tag": "septemberbilloflad",
+        "patterns": [
+            "billoflads for september",
+            "september billoflads",
+            "number of billoflads in september",
+            "count billoflads in september",
+            "total billoflads in september",
+            "quantity of billoflads in september",
+            "billoflads total in september",
+            "billoflads from september",
+            "number of billoflads from september",
+            "count billoflads from september",
+            "total billoflads from september",
+            "quantity of billoflads from september",
+            "billoflads total from september"
+        ],
+        "responses": ["The number of billoflads for september is septemberbilloflad."]
+    },
+    {
+        "tag": "octoberbilloflad",
+        "patterns": [
+            "billoflads for october",
+            "october billoflads",
+            "number of billoflads in october",
+            "count billoflads in october",
+            "total billoflads in october",
+            "quantity of billoflads in october",
+            "billoflads total in october",
+            "billoflads from october",
+            "number of billoflads from october",
+            "count billoflads from october",
+            "total billoflads from october",
+            "quantity of billoflads from october",
+            "billoflads total from october"
+        ],
+        "responses": ["The number of billoflads for october is octoberbilloflad."]
+    },
+    {
+        "tag": "novemberbilloflad",
+        "patterns": [
+            "billoflads for november",
+            "november billoflads",
+            "number of billoflads in november",
+            "count billoflads in november",
+            "total billoflads in november",
+            "quantity of billoflads in november",
+            "billoflads total in november",
+            "billoflads from november",
+            "number of billoflads from november",
+            "count billoflads from november",
+            "total billoflads from november",
+            "quantity of billoflads from november",
+            "billoflads total from november"
+        ],
+        "responses": ["The number of billoflads for november is novemberbilloflad."]
+    },
+    {
+        "tag": "decemberbilloflad",
+        "patterns": [
+            "billoflads for december",
+            "december billoflads",
+            "number of billoflads in december",
+            "count billoflads in december",
+            "total billoflads in december",
+            "quantity of billoflads in december",
+            "billoflads total in december",
+            "billoflads from december",
+            "number of billoflads from december",
+            "count billoflads from december",
+            "total billoflads from december",
+            "quantity of billoflads from december",
+            "billoflads total from december"
+        ],
+        "responses": ["The number of billoflads for december is decemberbilloflad."]
+    }
+]

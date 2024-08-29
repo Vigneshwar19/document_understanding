@@ -1,0 +1,40 @@
+[
+    {
+        "tag": "leadquery",
+        "patterns": [
+            "leads from name",
+            "how many [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "total number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "quantity of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads last month from [lead source, sales executive,country] with name",
+            "how many [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads were there from [lead source, sales executive,country] last month with name",
+            "number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads in the last month from [lead source, sales executive,country] with name",
+            "count of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads for last month from [lead source, sales executive,country] with name",
+            "tell me the total number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "how many [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] were quoted from [lead source, sales executive,country] last month with name",
+            "total count of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads provided by [lead source, sales executive,country] last month with name",
+            "how many [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads came from [lead source, sales executive,country] for last month with name"
+        ],
+        "responses": ["The number of for last month with name is leadquery."]
+    },
+    {
+        "tag": "leadquery2",
+        "patterns": [
+            "leads from name",
+            "how many [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "total number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "quantity of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads last month from [lead source, sales executive,country] with name",
+            "how many [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads were there from [lead source, sales executive,country] last month with name",
+            "number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads in the last month from [lead source, sales executive,country] with name",
+            "count of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads for last month from [lead source, sales executive,country] with name",
+            "tell me the total number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "how many [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] were quoted from [lead source, sales executive,country] last month with name",
+            "total count of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads from [lead source, sales executive,country] for last month with name",
+            "number of [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads provided by [lead source, sales executive,country] last month with name",
+            "how many [domestic,prospect,shipment type,status,lead TYPE,SHIPMENT TERM] leads came from [lead source, sales executive,country] for last month with name"
+        ],
+        "responses": ["The number of for last month with name is leadquery."]
+    }
+]
