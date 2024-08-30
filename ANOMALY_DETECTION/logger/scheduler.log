@@ -1,0 +1,100 @@
+2024-05-23 10:53:30,644 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-23 10:53:30,645 - Added job "scheduled_task" to job store "default"
+2024-05-23 10:53:30,645 - Scheduler started
+2024-05-23 10:53:30,646 - Scheduler started, will run the task at 00:00 every day.
+2024-05-23 10:54:00,041 - Running job "scheduled_task (trigger: cron[hour='10', minute='54'], next run at: 2024-05-23 10:54:00 IST)" (scheduled at 2024-05-23 10:54:00+05:30)
+2024-05-23 10:54:00,072 - Executing task with fromDate: 20240522105400 and toDate: 20240523105400
+2024-05-23 10:54:05,108 - Job "scheduled_task (trigger: cron[hour='10', minute='54'], next run at: 2024-05-24 10:54:00 IST)" raised an exception
+Traceback (most recent call last):
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+    self.endheaders()
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1293, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1052, in _send_output
+    self.send(msg)
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 990, in send
+    self.connect()
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001D6304F43D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=9602): Max retries exceeded with url: /api/bill/train (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D6304F43D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\apscheduler\executors\base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Python\ANOMALY_DETECTION\scheduler.py", line 32, in scheduled_task
+    response = requests.post(url, json=input_json, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\V i c k y\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=9602): Max retries exceeded with url: /api/bill/train (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D6304F43D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-05-23 10:54:40,567 - Scheduler has been shut down
+2024-05-23 10:54:40,568 - Scheduler shut down.
+2024-05-23 10:54:59,744 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-23 10:54:59,745 - Added job "scheduled_task" to job store "default"
+2024-05-23 10:54:59,745 - Scheduler started
+2024-05-23 10:54:59,746 - Scheduler started, will run the task at 00:00 every day.
+2024-05-23 10:55:00,047 - Running job "scheduled_task (trigger: cron[hour='10', minute='55'], next run at: 2024-05-23 10:55:00 IST)" (scheduled at 2024-05-23 10:55:00+05:30)
+2024-05-23 10:55:00,077 - Executing task with fromDate: 20240522105500 and toDate: 20240523105500
+2024-05-23 10:55:06,918 - Task executed successfully.
+2024-05-23 10:55:06,934 - Job "scheduled_task (trigger: cron[hour='10', minute='55'], next run at: 2024-05-24 10:55:00 IST)" executed successfully
+2024-05-23 10:55:28,450 - Scheduler has been shut down
+2024-05-23 10:55:28,452 - Scheduler shut down.
+2024-05-23 10:55:30,309 - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-05-23 10:55:30,310 - Added job "scheduled_task" to job store "default"
+2024-05-23 10:55:30,310 - Scheduler started
+2024-05-23 10:55:30,311 - Scheduler started, will run the task at 00:00 every day.
+2024-05-23 10:56:00,040 - Running job "scheduled_task (trigger: cron[hour='10', minute='56'], next run at: 2024-05-23 10:56:00 IST)" (scheduled at 2024-05-23 10:56:00+05:30)
+2024-05-23 10:56:00,086 - Executing task with fromDate: 20240522105600 and toDate: 20240523105600
+2024-05-23 10:56:02,287 - Task executed successfully.
+2024-05-23 10:56:02,287 - Job "scheduled_task (trigger: cron[hour='10', minute='56'], next run at: 2024-05-24 10:56:00 IST)" executed successfully
+2024-05-23 10:57:53,324 - Scheduler has been shut down
+2024-05-23 10:57:53,324 - Scheduler shut down.

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://betatest.ezeeshipping.in/assets/img/EZ_New_LogoAboveText.png">
+    <title>Anomalyprediction</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            overflow: hidden;
+        }
+        .container {
+            text-transform: uppercase;
+            max-width: 100%;
+            padding: 10px;
+            max-height: 38vh;
+            overflow-y: auto;
+            overflow-x: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+        }
+        /* Styling the scrollbar */
+        .container::-webkit-scrollbar {
+            width: 1px;
+            height: 1px; /* Width of the scrollbar */
+        }
+
+        /* Track */
+        .container::-webkit-scrollbar-track {
+            background: #f1f1f1; /* Color of the track */
+        }
+
+        /* Handle */
+        .container::-webkit-scrollbar-thumb {
+            background: #888; /* Color of the scrollbar handle */
+        }
+
+        /* Handle on hover */
+        .container::-webkit-scrollbar-thumb:hover {
+            background: #555; /* Color of the scrollbar handle on hover */
+        }
+        .container-2 {
+            max-height: 40vh;
+            max-width: 100%;
+            overflow: auto;
+            margin: 10px;
+        }
+        /* Styling the scrollbar */
+        .container-2::-webkit-scrollbar {
+            width: 5px;
+            height: 5px; /* Width of the scrollbar */
+        }
+
+        /* Track */
+        .container-2::-webkit-scrollbar-track {
+            background: #f1f1f1; /* Color of the track */
+        }
+
+        /* Handle */
+        .container-2::-webkit-scrollbar-thumb {
+            background: #888; /* Color of the scrollbar handle */
+        }
+
+        /* Handle on hover */
+        .container-2::-webkit-scrollbar-thumb:hover {
+            background: #555; /* Color of the scrollbar handle on hover */
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+        .message-box, .error-box {
+            padding-top: 15px;
+            padding-right: 15px;
+            text-align: left;
+            margin-left: 0;
+            text-transform: uppercase;
+            background-color: white;
+            border-bottom: 5px solid #002147;
+            border-left: 5px solid #002147;
+            border-right: 5px solid #002147;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header {
+            background-color: #002147;
+            color: #fff;
+            top: 0;
+            padding: 10px; 
+            text-align: center; 
+            margin-bottom: 20px;
+            border-top: 3px solid #fff;
+        }
+        .footer {
+            background-color: #002147;
+            color: white;
+            padding: 5px;
+            height: 38px;
+            bottom: 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+        }
+        table {
+            width: 1470px;
+            border-collapse: collapse;
+            border-radius: 10px;
+            border: 5px solid black;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        th {
+            text-transform: uppercase;
+            background-color: #002147;
+            color: white;
+            padding: 12px;
+            text-align: center;
+        }
+        td {
+            text-align: center;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            text-align: center;
+            background-color: #e5e4e2;
+        }
+        tr:nth-child(odd) {
+            text-align: center;
+            background-color: #d3d3d3;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            padding-top: 100px; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgb(0,0,0); 
+            background-color: rgba(0,0,0,0.4); 
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            width: 40%; 
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .mod-h {
+            height: 35px;
+            background-color: #002147;
+            color: white;
+            padding-left: 20px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            padding-top: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .close {
+            color: white;
+            float: right;
+            padding-right: 5px;
+            margin-top: -6px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: grey;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Anomaly Prediction</h2>
+    </div>
+    <div class="main-container">
+        <div class="container">
+            <form id="billForm" action="/test" method="post">
+                <div class="row">
+                    <!-- Form fields here -->
+                    <div class="form-group col-md-2">
+                        <label for="shipperName">Shipper Name:</label>
+                        <input type="text" id="shipperName" name="shipperName" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="consigneeName">Consignee Name:</label>
+                        <input type="text" id="consigneeName" name="consigneeName" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="billAdressID">Bill Address ID:</label>
+                        <input type="number" id="billAdressID" name="billAdressID" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="billToName">Bill To Name:</label>
+                        <input type="text" id="billToName" name="billToName" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="billFromName">Bill From Name:</label>
+                        <input type="text" id="billFromName" name="billFromName" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="shipmentType">Shipment Type:</label>
+                        <input type="text" id="shipmentType" name="shipmentType" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="grossWt">Gross Weight (kg):</label>
+                        <input type="number" id="grossWt" name="grossWt" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="netWt">Net Weight (kg):</label>
+                        <input type="number" id="netWt" name="netWt" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="chargeWt">Charge Weight (kg):</label>
+                        <input type="number" id="chargeWt" name="chargeWt" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="currency">Currency:</label>
+                        <input type="text" id="currency" name="currency" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="billType">Bill Type:</label>
+                        <input type="number" id="billType" name="billType" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="placeOfSupply">Place Of Supply:</label>
+                        <input type="text" id="placeOfSupply" name="placeOfSupply" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="isSez">IsSez:</label>
+                        <input type="number" id="isSez" name="isSez" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="taxExemption">Tax Exemption:</label>
+                        <input type="number" id="taxExemption" name="taxExemption" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="totalIgst">Total Igst:</label>
+                        <input type="number" id="totalIgst" name="totalIgst" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="totalCgst">Total Cgst:</label>
+                        <input type="number" id="totalCgst" name="totalCgst" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="totalSgst">Total Sgst:</label>
+                        <input type="number" id="totalSgst" name="totalSgst" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="netTotal">Net Total:</label>
+                        <input type="number" id="netTotal" name="netTotal" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="taxTotal">Tax Total:</label>
+                        <input type="number" id="taxTotal" name="taxTotal" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="grossTotal">Gross Total:</label>
+                        <input type="number" id="grossTotal" name="grossTotal" min="0" step="any" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="billItems">Bill Items:</label>
+                        <input type="text" id="billItems" name="billItems" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="billTypeDesc">bill type:</label>
+                        <input type="text" id="billtype" name="billTypeDesc" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="billtoaddress">billtoaddress:</label>
+                        <input type="text" id="billtoaddress" name="billtoaddress" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="origin">Origin:</label>
+                        <input type="text" id="origin" name="origin" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="destination">Destination:</label>
+                        <input type="text" id="destination" name="destination" class="form-control" required>
+                    </div>
+                    <input type="hidden" id="hiddenInput" name="environment" value="screen">
+                    <input type="hidden" id="hiddenInput1" name="anomaly" value="bill">
+                    <input type="hidden" id="hiddenInput2" name="tenantid" value="tenant">
+                    <input type="hidden" id="hiddenInput3" name="officeId" value="office">
+                </div>
+                <div class="btn-container">
+                    <button type="button" class="btn btn-primary" style="margin-bottom: 10px;" onclick="return refreshPage()">Refresh</button>
+                    <button type="button" class="btn btn-primary" style="margin-bottom: 10px;" onclick="submitForm()">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="container-2">
+            <table id="excelTable">
+                {{ excel_table | safe }}
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; Anomaly Prediction project.</p>
+    </div>
+
+        {% if response_data or error_message %}
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="mod-h">WARNING!<span class="close">&times;</span></div>
+                {% if response_data %}
+                <div class="message-box">
+                    <ul>
+                        <p>{{ response_data | safe }}</p>
+                    </ul>
+                </div>
+                {% endif %}
+                
+                {% if error_message %}
+                <div class="error-box">
+                    <p><strong>Error:</strong> {{ error_message }}</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>  
+
+        var tenantId, officeId;
+        
+        function populateForm2(row) {
+            var cells = row.getElementsByTagName('td');
+            
+            // Extracting tenantId and officeId directly from the first and second cells
+            tenantId = cells[0].innerText.trim();
+            officeId = cells[1].innerText.trim();
+            console.log(tenantId, officeId);
+        } 
+
+        function submitForm() {
+            // Get the form element
+            var form = document.getElementById('billForm');
+
+            var hiddenInput = document.getElementById('hiddenInput');
+            hiddenInput.value = 'screen';
+            var hiddenInput = document.getElementById('hiddenInput1');
+            hiddenInput.value = 'bill';
+            var hiddenInput = document.getElementById('hiddenInput2');
+            hiddenInput.value = tenantId;
+            var hiddenInput = document.getElementById('hiddenInput3');
+            hiddenInput.value = officeId;
+            
+            // Perform form validation (optional, for client-side validation)
+            if (form.checkValidity()) {
+                // If the form is valid, submit it
+                form.submit();
+            } else {
+                // If the form is not valid, display a validation message
+                form.reportValidity();
+            }
+        }
+
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the page loads, open the modal if response_data or error_message exists
+        window.onload = function() {
+            if (modal) {
+                modal.style.display = "block";
+            }
+
+            var buttons = document.getElementsByClassName('select-row');
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].onclick = function() {
+                    var row = this.parentNode.parentNode;
+                    populateForm(row);
+                    populateForm2(row);
+                };
+            }
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        function populateForm(row) {
+            var cells = row.getElementsByTagName('td');
+            document.getElementById('shipperName').value = cells[2].innerText;
+            document.getElementById('consigneeName').value = cells[3].innerText;
+            document.getElementById('billAdressID').value = cells[4].innerText;
+            document.getElementById('billToName').value = cells[5].innerText;
+            document.getElementById('billFromName').value = cells[6].innerText;
+            document.getElementById('shipmentType').value = cells[7].innerText;
+            document.getElementById('grossWt').value = cells[8].innerText;
+            document.getElementById('netWt').value = cells[9].innerText;
+            document.getElementById('chargeWt').value = cells[10].innerText;
+            document.getElementById('currency').value = cells[11].innerText;
+            document.getElementById('billType').value = cells[12].innerText;
+            document.getElementById('placeOfSupply').value = cells[13].innerText;
+            document.getElementById('isSez').value = cells[14].innerText;
+            document.getElementById('taxExemption').value = cells[15].innerText;
+            document.getElementById('totalIgst').value = cells[16].innerText;
+            document.getElementById('totalCgst').value = cells[17].innerText;
+            document.getElementById('totalSgst').value = cells[18].innerText;
+            document.getElementById('netTotal').value = cells[19].innerText;
+            document.getElementById('taxTotal').value = cells[20].innerText;
+            document.getElementById('grossTotal').value = cells[21].innerText;
+            document.getElementById('billItems').value = cells[22].innerText;
+            document.getElementById('billtype').value = cells[23].innerText;
+            document.getElementById('billtoaddress').value = cells[24].innerText;
+            document.getElementById('origin').value = cells[25].innerText;
+            document.getElementById('destination').value = cells[26].innerText;
+        }       
+
+        function refreshPage() {
+            window.location.reload();
+            return false;
+        }                
+        
+    </script>    
+</body>
+</html>

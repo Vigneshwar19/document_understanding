@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://betatest.ezeeshipping.in/assets/img/EZ_New_LogoAboveText.png">
+    <title>Anomaly Test</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            overflow: hidden;
+        }
+        .main-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-container {
+            text-transform: uppercase;
+            max-width: 400px;
+            font-Weight: bold;
+            padding: 20px;
+            margin: auto; /* Center horizontally */
+            margin-top: 5vh; /* Center vertically, adjust as needed */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+            background-color: white;
+            border-radius: 5px;
+            position: relative;
+        }
+        .form-group-2 {
+            display: flex;
+            margin-top: 10px;
+            flex-wrap: wrap;
+            gap: 1rem; /* Optional: adds space between the elements */
+            align-items: center; /* Align items vertically centered */
+        }
+        
+        .form-group-2 label,
+        .form-group-2 input {
+            margin: 0.5px;
+            width: 160px; /* Optional: adds some margin around the labels and inputs */
+        }
+
+        .form-group-2 input {
+            margin: 0.5px;
+            width: 160px;
+            margin-left: -50px; /* Optional: adds some margin around the labels and inputs */
+        }
+        
+        .form-control {
+            flex: 1; /* Allows the input fields to grow and fill the available space */
+            min-width: 150px; /* Optional: sets a minimum width for the input fields */
+        }        
+        .header {
+            background-color: #002147;
+            color: #fff; 
+            padding: 10px; 
+            text-align: center; 
+            margin-bottom: 20px;
+            border-top: 3px solid #fff;
+        }
+        .footer {
+            background-color: #002147;
+            color: white;
+            padding: 5px;
+            height: 38px;
+            bottom: 0;
+            text-align: center;
+            position: fixed; /* or position: absolute; */
+            width: 100%;
+        }
+           
+        .btn-container {
+            display: flex;
+            height: 55px;
+            margin-bottom: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            margin-top: 10px;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .btn-container button {
+            padding: 5px 15px;
+            width: 80px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-container button:active {
+            background-color: #004494;
+        }
+
+        .btn-container button:first-child {
+            margin-right: auto;
+        }
+
+        .btn-container button:last-child {
+            margin-left: auto;
+        }    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Anomaly Prediction</h2>
+    </div>
+    <div class="main-container">
+        <div class="form-container">
+            <form id="anomalyForm" action="/load" method="post">
+                <div class="form-group">
+                    <label for="url">SELECT ENVIRONMENT</label>
+                    <select id="url" name="url" class="form-control" required onchange="updateHiddenFields()">
+                        <option value="">--SELECT--</option>
+                        <option value="jdbc:db2://164.52.193.146:50000/EZEEPUB">EZEEPUB</option>
+                        <option value="jdbc:db2://164.52.205.129:50000/VIRTVPSQ">VIRTVPSQ</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="anom">SELECT ANOMALY</label>
+                    <select id="anom" name="anom" class="form-control">
+                        <option value="">--SELECT--</option>
+                        <option value="bill">BILL</option>
+                        <option value="buying bill">BUYING BILL</option>
+                    </select>
+                </div>
+                <div class="form-group-2">
+                    <label for="fromDate">FROM DATE</label>
+                    <input type="datetime-local" id="fromdate" name="fromdate" class="form-control" required>
+                    <label for="toDate">TO DATE</label>
+                    <input type="datetime-local" id="todate" name="todate" class="form-control" required>
+                </div>
+                <div class="form-group-2">
+                    <label for="tenantId">TENANT ID</label>
+                    <input type="text" id="tenantId" name="tenantId" class="form-control" required>
+                    <label for="officeId">OFFICE ID</label>
+                    <input type="text" id="officeId" name="officeId" class="form-control" required>
+                </div>
+
+                <!-- Hidden fields for additional values -->
+                <input type="hidden" id="extra_value1" name="username">
+                <input type="hidden" id="extra_value2" name="password">
+
+                <div class="btn-container">
+                    <button type="button" onclick="clearFields()">Reset</button>
+                    <button type="button" onclick="submitForm()">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; Anomaly Prediction project.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+
+        function clearFields() {
+            document.getElementById('url').value = '';
+            document.getElementById('tenantId').value = '';
+            document.getElementById('officeId').value = '';
+            document.getElementById('todate').value = '';
+            document.getElementById('fromdate').value = '';
+        }        
+        
+        function updateHiddenFields() {
+            var selectedOption = document.getElementById('url').value;
+            var extraValue1 = document.getElementById('extra_value1');
+            var extraValue2 = document.getElementById('extra_value2');
+
+            if (selectedOption === 'jdbc:db2://164.52.193.146:50000/EZEEPUB') {
+                extraValue1.value = 's1db1espubone';
+                extraValue2.value = 'v1rt_s1db1espub1123*';
+            } else if (selectedOption === 'jdbc:db2://164.52.205.129:50000/VIRTVPSQ') {
+                extraValue1.value = 's1db1espubone';
+                extraValue2.value = 'v1rt_s1db1espub1123$';
+            } else {
+                extraValue1.value = '';
+                extraValue2.value = '';
+            }
+        }
+
+        function submitForm() {
+            // Get the form element
+            var form = document.getElementById('anomalyForm');
+            
+            // Perform form validation (optional, for client-side validation)
+            if (form.checkValidity()) {
+                // If the form is valid, submit it
+                form.submit();
+            } else {
+                // If the form is not valid, display a validation message
+                form.reportValidity();
+            }
+        }
+    </script>
+</body>
+</html>
