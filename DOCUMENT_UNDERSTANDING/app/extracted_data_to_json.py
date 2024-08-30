@@ -17,11 +17,8 @@ def process_multiple_dpi(all_responses):
     if 'dpiRegistration' in final_invoice:
         final_invoice['dpiRegistration'] = convert_date_format_dpi(final_invoice['dpiRegistration'])
     if 'valueFob' in final_invoice and final_invoice['valueFob'] is not None:
-        # Convert to string and remove spaces
         final_invoice['valueFob'] = str(final_invoice['valueFob']).replace(' ', '')
-
     if 'invoiceAmt' in final_invoice and final_invoice['invoiceAmt'] is not None:
-        # Convert to string and remove spaces
         final_invoice['invoiceAmt'] = str(final_invoice['invoiceAmt']).replace(' ', '')
 
     non_null_values = {}
@@ -34,11 +31,8 @@ def process_multiple_dpi(all_responses):
         if 'dpiRegistration' in invoice:
             invoice['dpiRegistration'] = convert_date_format_dpi(invoice['dpiRegistration'])
         if 'valueFob' in final_invoice and final_invoice['valueFob'] is not None:
-            # Convert to string and remove spaces
             final_invoice['valueFob'] = str(final_invoice['valueFob']).replace(' ', '')
-
         if 'invoiceAmt' in final_invoice and final_invoice['invoiceAmt'] is not None:
-            # Convert to string and remove spaces
             final_invoice['invoiceAmt'] = str(final_invoice['invoiceAmt']).replace(' ', '')
 
         for key, value in invoice.items():

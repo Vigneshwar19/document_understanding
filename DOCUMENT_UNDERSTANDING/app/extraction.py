@@ -1,4 +1,3 @@
-import os
 from PIL import Image
 import google.generativeai as genai
 from .utils.pdf_to_image import convert_pdf_to_image
